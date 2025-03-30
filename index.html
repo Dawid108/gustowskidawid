@@ -108,12 +108,124 @@
     <div class="buttons">
         <div class="button" onclick="showTable('osiagniecia')">Osiągnięcia</div>
         <div class="button" onclick="showTable('biegi')">Biegi</div>
-        <div class="button" onclick="showTable('rekordybiegi')">Rekordy Biegowe</div>
         <div class="button" onclick="showTable('szachy')">Szachy</div>
         <div class="button" onclick="showTable('inneosiagniecia')">Inne Osiągnięcia</div>
     </div>
     <div id="osiagniecia" class="table-container">
-        <h1>Osiągnięcia</h1>
+        <h1>Moje Rekordy w Bieganiu</h1>
+        <div class="table-wrapper">
+            <table border="1">
+                <tr>
+                    <th>Dystans</th>
+                    <th>Czas</th>
+                    <th>Data</th>
+                    <th>Zawody</th>
+                </tr>
+                <tr>
+                    <th>400 m</th>
+                    <td>1:12</td>
+                    <td>2024</td>
+                    <td>Bieg na 400 m</td>
+                </tr>
+                <tr>
+                    <th>1000 m</th>
+                    <td>3:13</td>
+                    <td>20.09.2024</td>
+                    <td><a href="https://www.strava.com/activities/13522529732">
+                        Na ocenę w Szkole
+                    </a></td>
+                </tr>
+                <tr>
+                    <th>1500 m</th>
+                    <td>5:21</td>
+                    <td>20.04.2023</td>
+                    <td><a href="https://www.maratonczykpomiarczasu.pl/sites/default/files/MISTRZOSTWA%20W%20DRU%C5%BBYNOWYCH%20BIEGACH%20PRZE%C5%81AJOWYCH%20DZIEWCZ%C4%84T%20I%20CH%C5%81OPC%C3%93W%20OPEN_0.pdf">
+                        Wielkopolskie Igrzyska Młodzieży Szkolnej - Drużynowe Biegi Przełajowe
+                    </a></td>
+                </tr>
+                <tr>
+                    <th>2000 m</th>
+                    <td>7:08</td>
+                    <td>14.03.2024</td>
+                    <td><a href="https://www.strava.com/activities/13522704240">
+                        Bieg na 2 km
+                    </a></td>
+                </tr>
+                <tr>
+                    <th>5 km</th>
+                    <td>19:13</td>
+                    <td>07.12.2024</td>
+                    <td><a href="https://euforiabiegacza-sport.pl/zawody/mikolajprusice2024/OPEN.PDF">
+                        13. Bieg w Poszukiwaniu Św. Mikołaja
+                    </a></td>
+                </tr>
+                <tr>
+                    <th>10 km</th>
+                    <td>41:07</td>
+                    <td>06.10.2024</td>
+                    <td><a href="https://www.maratonczykpomiarczasu.pl/sites/default/files/47%20BIEG%20MA%C4%86KA%20-%20wyniki%2010km.pdf">
+                        47 Bieg Maćka
+                    </a></td>
+                </tr>
+                <tr>
+                    <th>Półmaraton</th>
+                    <td>1:32:41</td>
+                    <td>30.03.2025</td>
+                    <td><a href="https://wyniki.datasport.pl/results5470/indexnew.php">
+                        XI Ostrowski Ice Mat Półmaraton 2025
+                    </a></td>
+                </tr>
+                <tr>
+                    <th>Maraton</th>
+                    <td>4:10:04</td>
+                    <td>20.10.2024</td>
+                    <td><a href="https://www.strava.com/activities/13521559538">
+                        Mój Pierwszy Maraton
+                    </a></td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <h1>Szachy</h1>
+        <div class="table-wrapper">
+            <table border="1">
+                <tr>
+                    <th>Kategoria</th>
+                    <td>II</td>
+                </tr>
+                <tr>
+                    <th>Ranking FIDE</th>
+                    <td>1501</td>
+                </tr>
+                <tr>
+                    <th>FIDE (Szybkie)</th>
+                    <td>1542</td>
+                </tr>
+                <tr>
+                    <th>FIDE (Blitz)</th>
+                    <td>1453</td>
+                </tr>
+                <tr>
+                    <th>Klub</th>
+                    <td>UKS "Dragon" Smolice</td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <h1>Piłka Nożna</h1>
+        <h3>Kluby</h3>
+        <div class="table-wrapper">
+            <table border="1">
+                <tr>
+                    <th>od 2016</th>
+                    <td>Astra Krotoszyn</td>
+                </tr>
+                <tr>
+                    <th>od 2025</th>
+                    <td>Sokół Chwaliszew</td>
+                </tr>
+            </table>
+        </div>
     </div>
     <div id="biegi" class="table-container">
         <h1>Bieganie</h1>
@@ -131,6 +243,21 @@
                     <th>Miejsce - Mężczyźni</th>
                     <th>Kategoria</th>
                     <th>Miejsce - Kategoria</th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><a href="https://wyniki.datasport.pl/results5470/indexnew.php">
+                        XI Ostrowski Ice Mat Półmaraton 2025
+                    </a></td>
+                    <td>Ostrów Wielkopolski</td>
+                    <td>30.03.2025</td>
+                    <td>82</td>
+                    <td>Półmaraton</td>
+                    <td>01:32:41</td>
+                    <td>4:23</td>
+                    <td>76</td>
+                    <td>16-19</td>
+                    <td>3</td>
                 </tr>
                 <tr>
                     <td></td>
@@ -284,19 +411,6 @@
                 </tr>
                 <tr>
                     <td></td>
-                    <td>Mistrzostwa Powiatu Licealiady w Biegach Przełajowych</td>
-                    <td>Krotoszyn</td>
-                    <td>05.04.2024</td>
-                    <td>1</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
                     <td><a href="https://euforiabiegacza-sport.pl/zawody/3CrossKrotoszyn/OPEN_10KM.PDF">
                         3 Krotoszyński Cross
                     </a></td>
@@ -327,19 +441,6 @@
                 </tr>
                 <tr>
                     <td></td>
-                    <td>XXIV Wielkopolskie Igrzyska Młodzieży Szkolnej Sztafetowe Biegi Przełajowe</td>
-                    <td>Poznań</td>
-                    <td>12.10.2022</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-                <tr>
-                    <td></td>
                     <td>XVIII Mityng Lekkoatletyczny o Puchar Burnistrza Krotoszyna</td>
                     <td>Krotoszyn</td>
                     <td>27.05.2022</td>
@@ -365,103 +466,6 @@
                     <td>114</td>
                     <td>14-15</td>
                     <td>114</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>Krotoszyński Bieg Niepodległości</td>
-                    <td>Krotoszyn</td>
-                    <td>11.11.2023</td>
-                    <td>5</td>
-                    <td>1918 m</td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                    <td></td>
-                </tr>
-            </table>
-        </div>
-    </div>
-    <div id="rekordybiegi" class="table-container">
-        <h1>Moje Rekordy w Bieganiu</h1>
-        <div class="table-wrapper">
-            <table border="1">
-                <tr>
-                    <th>Lp.</th>
-                    <th>Dystans</th>
-                    <th>Czas</th>
-                    <th>Data</th>
-                    <th>Zawody</th>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>400 m</td>
-                    <td>1:12</td>
-                    <td>2024</td>
-                    <td>Bieg na 400 m</td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>1000 m</td>
-                    <td>3:13</td>
-                    <td>20.09.2024</td>
-                    <td><a href="https://www.strava.com/activities/13522529732">
-                        Na ocenę w Szkole
-                    </a></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>1500 m</td>
-                    <td>5:21</td>
-                    <td>20.04.2023</td>
-                    <td><a href="https://www.maratonczykpomiarczasu.pl/sites/default/files/MISTRZOSTWA%20W%20DRU%C5%BBYNOWYCH%20BIEGACH%20PRZE%C5%81AJOWYCH%20DZIEWCZ%C4%84T%20I%20CH%C5%81OPC%C3%93W%20OPEN_0.pdf">
-                        Wielkopolskie Igrzyska Młodzieży Szkolnej - Drużynowe Biegi Przełajowe
-                    </a></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>2000 m</td>
-                    <td>7:08</td>
-                    <td>14.03.2024</td>
-                    <td><a href="https://www.strava.com/activities/13522704240">
-                        Bieg na 2 km
-                    </a></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>5 km</td>
-                    <td>19:13</td>
-                    <td>07.12.2024</td>
-                    <td><a href="https://euforiabiegacza-sport.pl/zawody/mikolajprusice2024/OPEN.PDF">
-                        13. Bieg w Poszukiwaniu Św. Mikołaja
-                    </a></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>10 km</td>
-                    <td>41:07</td>
-                    <td>06.10.2024</td>
-                    <td><a href="https://www.maratonczykpomiarczasu.pl/sites/default/files/47%20BIEG%20MA%C4%86KA%20-%20wyniki%2010km.pdf">
-                        47 Bieg Maćka
-                    </a></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>Półmaraton</td>
-                    <td>1:44:24</td>
-                    <td>31.07.2024</td>
-                    <td><a href="https://www.strava.com/activities/13522569192">
-                        Mój Drugi Półmaraton
-                    </a></td>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td>Maraton</td>
-                    <td>4:10:04</td>
-                    <td>20.10.2024</td>
-                    <td><a href="https://www.strava.com/activities/13521559538">
-                        Mój Pierwszy Maraton
-                    </a></td>
                 </tr>
             </table>
         </div>
@@ -1615,7 +1619,9 @@
                 </tr>
                 <tr>
                     <td></td>
-                    <td>Sokół Chwaliszew 5-2 Błękitni Sparta Kotlin</td>
+                    <td><a href="https://www.facebook.com/sokolchwaliszew/posts/pfbid0aR2updG1MZ6Enk55Ks6jpqbFYJC5NwZSM1iNyKmSZekWPCAzk2RAccH6oCnncMMrl">
+                        Sokół Chwaliszew 5-2 Błękitni Sparta Kotlin
+                    </a></td>
                     <td>Piłka Nożna</td>
                     <td>29.03.2025</td>
                     <td>Chwaliszew</td>
@@ -2043,6 +2049,14 @@
                 </tr>
                 <tr>
                     <td></td>
+                    <td>Mistrzostwa Powiatu Licealiady w Biegach Przełajowych</td>
+                    <td>Bieganie</td>
+                    <td>05.04.2024</td>
+                    <td>Krotoszyn</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td></td>
                     <td><a href="https://www.strava.com/segments/21005661">
                         Zielony: ul.Zakopiańska-Zajęcznik maszt
                     </a></td>
@@ -2068,6 +2082,14 @@
                     <td>14.01.2024</td>
                     <td>Krotoszyn</td>
                     <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>Krotoszyński Bieg Niepodległości</td>
+                    <td>Bieganie</td>
+                    <td>11.11.2023</td>
+                    <td>Krotoszyn</td>
+                    <td>5</td>
                 </tr>
                 <tr>
                     <td></td>
@@ -2100,6 +2122,14 @@
                     <td>28.02.2023</td>
                     <td>Smolice</td>
                     <td>1</td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>XXIV Wielkopolskie Igrzyska Młodzieży Szkolnej Sztafetowe Biegi Przełajowe</td>
+                    <td>Bieganie</td>
+                    <td>12.10.2022</td>
+                    <td>Poznań</td>
+                    <td></td>
                 </tr>
                 <tr>
                     <td></td>
