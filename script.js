@@ -1,21 +1,21 @@
 const posts = [
     { 
         title: "XI Ostrowski Ice Mat Półmaraton", 
-        img: "https://drive.google.com/uc?id=11fYcOPBkbV1Qt0mY96x5-_X6YAApNSOX", 
+        img: "img/2025/03_Marzec/30_Ostrowski_Polmaraton_3.jpg", 
         description: "",
         albums: ["Bieganie"],
         date: "30.03.2025"
     },
     { 
         title: "XI Ostrowski Ice Mat Półmaraton", 
-        img: "https://drive.google.com/uc?id=1lIYp9pLZPz6PlEFxBaY_bnYhENMz0YqZ", 
+        img: "img/2025/03_Marzec/30_Ostrowski_Polmaraton_2.jpg", 
         description: "",
         albums: ["Bieganie"],
         date: "30.03.2025"
     },
     { 
         title: "XI Ostrowski Ice Mat Półmaraton", 
-        img: "https://drive.google.com/uc?id=1jaoV1DiwlKojSymw1yoJGHhISiXGNcu1", 
+        img: "img/2025/03_Marzec/30_Ostrowski_Polmaraton_1.jpg", 
         description: "",
         albums: ["Bieganie"],
         date: "30.03.2025"
