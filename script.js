@@ -1,9 +1,29 @@
-// Lista postów z datami (format: DD.MM.RRRR)
 const posts = [
+    { 
+        title: "XI Ostrowski Ice Mat Półmaraton", 
+        img: "https://drive.google.com/file/d/11fYcOPBkbV1Qt0mY96x5-_X6YAApNSOX/view?usp=drive_link", 
+        description: "",
+        albums: ["Bieganie"],
+        date: "30.03.2025"
+    },
+    { 
+        title: "XI Ostrowski Ice Mat Półmaraton", 
+        img: "https://drive.google.com/file/d/1lIYp9pLZPz6PlEFxBaY_bnYhENMz0YqZ/view?usp=drive_link", 
+        description: "",
+        albums: ["Bieganie"],
+        date: "30.03.2025"
+    },
+    { 
+        title: "XI Ostrowski Ice Mat Półmaraton", 
+        img: "https://drive.google.com/file/d/1jaoV1DiwlKojSymw1yoJGHhISiXGNcu1/view?usp=drive_link", 
+        description: "",
+        albums: ["Bieganie"],
+        date: "30.03.2025"
+    },
     { 
         title: "Mistrzostwa ZSP2", 
         img: "img/2025/03_Marzec/28_Szachy_7.jpg", 
-        description: "",
+        description: "1 miejsce dla najlepszej klasy turnieju",
         albums: ["Szachy"],
         date: "28.03.2025"
     },
@@ -17,7 +37,7 @@ const posts = [
     { 
         title: "Mistrzostwa ZSP2", 
         img: "img/2025/03_Marzec/28_Szachy_5.jpg", 
-        description: "",
+        description: "1 miejsce indywidualnie",
         albums: ["Szachy"],
         date: "28.03.2025"
     },
@@ -48,21 +68,207 @@ const posts = [
         description: "",
         albums: ["Szachy"],
         date: "28.03.2025"
+    },
+    {
+        title: "4 Krotoszyński Cross",
+        img: "img/2025/03_Marzec/23_Cross_Krotoszynski_5.jpg",
+        description: "",
+        albums: ["Bieganie"],
+        date: "23.03.2025"
+    },
+    {
+        title: "4 Krotoszyński Cross",
+        img: "img/2025/03_Marzec/23_Cross_Krotoszynski_4.jpg",
+        description: "",
+        albums: ["Bieganie"],
+        date: "23.03.2025"
+    },
+    {
+        title: "4 Krotoszyński Cross",
+        img: "img/2025/03_Marzec/23_Cross_Krotoszynski_3.jpg",
+        description: "",
+        albums: ["Bieganie"],
+        date: "23.03.2025"
+    },
+    {
+        title: "4 Krotoszyński Cross",
+        img: "img/2025/03_Marzec/23_Cross_Krotoszynski_2.jpg",
+        description: "",
+        albums: ["Bieganie"],
+        date: "23.03.2025"
+    },
+    {
+        title: "4 Krotoszyński Cross",
+        img: "img/2025/03_Marzec/23_Cross_Krotoszynski_1.jpg",
+        description: "",
+        albums: ["Bieganie"],
+        date: "23.03.2025"
+    },
+    {
+        title: "Biadki-Paprotki - staw III Wiórki",
+        img: "img/2025/03_Marzec/18_Szlak_Mickiewiczowski_3.jpg",
+        description: "Szlak Mickiewiczowski",
+        albums: ["Powiat Krotoszyński"],
+        date: "18.03.2025"
+    },
+    {
+        title: "Biadki-Paprotki - staw III Wiórki",
+        img: "img/2025/03_Marzec/18_Szlak_Mickiewiczowski_2.jpg",
+        description: "Szlak Mickiewiczowski",
+        albums: ["Powiat Krotoszyński"],
+        date: "18.03.2025"
+    },
+    {
+        title: "Biadki-Paprotki - staw III Wiórki",
+        img: "img/2025/03_Marzec/18_Szlak_Mickiewiczowski_1.jpg",
+        description: "Szlak Mickiewiczowski",
+        albums: ["Powiat Krotoszyński"],
+        date: "18.03.2025"
+    },
+    {
+        title: "Sankturium Matki Bożej Pocieszenia",
+        img: "img/2025/03_Marzec/14_Szlak_Lesnych_Stawow_16.jpg",
+        description: "Lutogniew",
+        albums: ["Powiat Krotoszyński"],
+        date: "14.03.2025"
+    },
+    {
+        title: "Dzierżanów - kapliczka z 1911 r.",
+        img: "img/2025/03_Marzec/14_Szlak_Lesnych_Stawow_15.jpg",
+        description: "Szlak Leśnych Stawów",
+        albums: ["Powiat Krotoszyński"],
+        date: "14.03.2025"
+    },
+    {
+        title: "Figura św. Wawrzyńca",
+        img: "img/2025/03_Marzec/14_Szlak_Lesnych_Stawow_14.jpg",
+        description: "Dzierżanów",
+        albums: ["Powiat Krotoszyński"],
+        date: "14.03.2025"
+    },
+    {
+        title: "Pałac Mielżyńskich",
+        img: "img/2025/03_Marzec/14_Szlak_Lesnych_Stawow_13.jpg",
+        description: "Baszków",
+        albums: ["Powiat Krotoszyński"],
+        date: "14.03.2025"
+    },
+    {
+        title: "Pałacyk Myśliwski",
+        img: "img/2025/03_Marzec/14_Szlak_Lesnych_Stawow_12.jpg",
+        description: "Baszków",
+        albums: ["Powiat Krotoszyński"],
+        date: "14.03.2025"
+    },
+    {
+        title: "Hadrianów - Staw Praczków",
+        img: "img/2025/03_Marzec/14_Szlak_Lesnych_Stawow_11.jpg",
+        description: "Szlak Leśnych Stawów",
+        albums: ["Powiat Krotoszyński"],
+        date: "14.03.2025"
+    },
+    {
+        title: "Staw Węgielnik",
+        img: "img/2025/03_Marzec/14_Szlak_Lesnych_Stawow_10.jpg",
+        description: "Szlak Leśnych Stawów",
+        albums: ["Powiat Krotoszyński"],
+        date: "14.03.2025"
+    },
+    {
+        title: "Staw Węgielnik",
+        img: "img/2025/03_Marzec/14_Szlak_Lesnych_Stawow_09.jpg",
+        description: "Szlak Leśnych Stawów",
+        albums: ["Powiat Krotoszyński"],
+        date: "14.03.2025"
+    },
+    {
+        title: "Grodzisko Piaski",
+        img: "img/2025/03_Marzec/14_Szlak_Lesnych_Stawow_08.jpg",
+        description: "Szlak Leśnych Stawów",
+        albums: ["Powiat Krotoszyński"],
+        date: "14.03.2025"
+    },
+    {
+        title: "Grodzisko pierścieniowe",
+        img: "img/2025/03_Marzec/14_Szlak_Lesnych_Stawow_07.jpg",
+        description: "Zduny",
+        albums: ["Powiat Krotoszyński"],
+        date: "14.03.2025"
+    },
+    {
+        title: "Pomnik Powstania Wlkp.",
+        img: "img/2025/03_Marzec/14_Szlak_Lesnych_Stawow_06.jpg",
+        description: "Zduny",
+        albums: ["Powiat Krotoszyński"],
+        date: "14.03.2025"
+    },
+    {
+        title: "Kościół pw. św. Jana Chrzciciela w Zdunach",
+        img: "img/2025/03_Marzec/14_Szlak_Lesnych_Stawow_05.jpg",
+        description: "Szlak Leśnych Stawów",
+        albums: ["Powiat Krotoszyński"],
+        date: "14.03.2025"
+    },
+    {
+        title: "Plac 700-lecia Zdun",
+        img: "img/2025/03_Marzec/14_Szlak_Lesnych_Stawow_04.jpg",
+        description: "Szlak Leśnych Stawów",
+        albums: ["Powiat Krotoszyński"],
+        date: "14.03.2025"
+    },
+    {
+        title: "Kościół poewangelicki w Zdunach",
+        img: "img/2025/03_Marzec/14_Szlak_Lesnych_Stawow_03.jpg",
+        description: "Szlak Leśnych Stawów",
+        albums: ["Powiat Krotoszyński"],
+        date: "14.03.2025"
+    },
+    {
+        title: "Izba Muzealna w Zdunach",
+        img: "img/2025/03_Marzec/14_Szlak_Lesnych_Stawow_02.jpg",
+        description: "Szlak Leśnych Stawów",
+        albums: ["Powiat Krotoszyński"],
+        date: "14.03.2025"
+    },
+    {
+        title: "Ratusz w Zdunach",
+        img: "img/2025/03_Marzec/14_Szlak_Lesnych_Stawow_01.jpg",
+        description: "Szlak Leśnych Stawów",
+        albums: ["Powiat Krotoszyński"],
+        date: "14.03.2025"
+    },
+    {
+        title: "Las",
+        img: "img/2025/03_Marzec/09_Las.jpg",
+        description: "",
+        albums: ["Powiat Krotoszyński"],
+        date: "09.03.2025"
+    },
+    {
+        title: "Tropem Wilczym 25 Bieg Pamięci Żołnierzy Wyklętych",
+        img: "img/2025/03_Marzec/02_Bieg_Zolnierzy_Wykletych_2.jpg",
+        description: "",
+        albums: ["Bieganie"],
+        date: "02.03.2025"
+    },
+    {
+        title: "Tropem Wilczym 25 Bieg Pamięci Żołnierzy Wyklętych",
+        img: "img/2025/03_Marzec/02_Bieg_Zolnierzy_Wykletych_1.jpg",
+        description: "",
+        albums: ["Bieganie"],
+        date: "02.03.2025"
     }
 ];
 
-// Funkcja konwertująca datę z DD.MM.RRRR na RRRR-MM-DD dla poprawnego sortowania
 function convertToISO(date) {
     const [day, month, year] = date.split(".");
     return `${year}-${month}-${day}`;
 }
 
-// Funkcja dodająca posty do strony i sortująca je od najnowszych do najstarszych
 function displayPosts(filter) {
     const container = document.getElementById("posts-container");
-    container.innerHTML = ""; // Czyszczenie postów
+    container.innerHTML = "";
 
-    // Sortowanie postów według daty (najnowsze pierwsze)
     const sortedPosts = posts.slice().sort((a, b) => 
         new Date(convertToISO(b.date)) - new Date(convertToISO(a.date))
     );
@@ -84,29 +290,23 @@ function displayPosts(filter) {
     });
 }
 
-// Funkcja do inicjalizacji rozwijanej listy albumów
 function initializeAlbumSelect() {
     const select = document.getElementById("album");
     let uniqueAlbums = new Set();
 
-    // Zbieranie unikalnych nazw albumów
     posts.forEach(post => post.albums.forEach(album => {
         if (album) uniqueAlbums.add(album);
     }));
 
-    // Sortowanie albumów alfabetycznie
     const sortedAlbums = [...uniqueAlbums].sort();
 
-    // Dodanie opcji "Wszystkie" na początek
     select.innerHTML = `<option value="all">Wszystkie</option>` + 
         sortedAlbums.map(album => `<option value="${album}">${album}</option>`).join("");
 }
 
-// Obsługa filtrowania albumów
 function showAlbum(album) {
     displayPosts(album);
 }
 
-// Inicjalizacja strony
 initializeAlbumSelect();
 displayPosts("all");
