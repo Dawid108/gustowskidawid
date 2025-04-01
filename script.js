@@ -1,21 +1,21 @@
 const posts = [
     { 
         title: "XI Ostrowski Ice Mat Półmaraton", 
-        img: "https://drive.google.com/file/d/11fYcOPBkbV1Qt0mY96x5-_X6YAApNSOX/view", 
+        img: "https://drive.google.com/uc?id=11fYcOPBkbV1Qt0mY96x5-_X6YAApNSOX", 
         description: "",
         albums: ["Bieganie"],
         date: "30.03.2025"
     },
     { 
         title: "XI Ostrowski Ice Mat Półmaraton", 
-        img: "https://drive.google.com/file/d/1lIYp9pLZPz6PlEFxBaY_bnYhENMz0YqZ/view", 
+        img: "https://drive.google.com/uc?id=1lIYp9pLZPz6PlEFxBaY_bnYhENMz0YqZ", 
         description: "",
         albums: ["Bieganie"],
         date: "30.03.2025"
     },
     { 
         title: "XI Ostrowski Ice Mat Półmaraton", 
-        img: "https://drive.google.com/file/d/1jaoV1DiwlKojSymw1yoJGHhISiXGNcu1/view", 
+        img: "https://drive.google.com/uc?id=1jaoV1DiwlKojSymw1yoJGHhISiXGNcu1", 
         description: "",
         albums: ["Bieganie"],
         date: "30.03.2025"
