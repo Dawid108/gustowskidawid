@@ -1,21 +1,21 @@
 const posts = [
     { 
         title: "XI Ostrowski Ice Mat Półmaraton", 
-        img: "img/2025/03_Marzec/30_Ostrowski_Polmaraton_3.jpg", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1743623758/30_Ostrowski_Polmaraton_3_bgushx.jpg", 
         description: "",
         albums: ["Bieganie"],
         date: "30.03.2025"
     },
     { 
         title: "XI Ostrowski Ice Mat Półmaraton", 
-        img: "img/2025/03_Marzec/30_Ostrowski_Polmaraton_2.jpg", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1743623886/30_Ostrowski_Polmaraton_2_phckp9.jpg", 
         description: "",
         albums: ["Bieganie"],
         date: "30.03.2025"
     },
     { 
         title: "XI Ostrowski Ice Mat Półmaraton", 
-        img: "img/2025/03_Marzec/30_Ostrowski_Polmaraton_1.jpg", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1743623394/30_Ostrowski_Polmaraton_1_th9jjd.jpg", 
         description: "",
         albums: ["Bieganie"],
         date: "30.03.2025"
@@ -50,7 +50,7 @@ const posts = [
     },
     { 
         title: "Mistrzostwa ZSP2", 
-        img: "img/2025/03_Marzec/28_Szachy_3.jpg", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1743623838/28_Szachy_3_qvsapd.jpg", 
         description: "",
         albums: ["Szachy"],
         date: "28.03.2025"
@@ -71,7 +71,7 @@ const posts = [
     },
     {
         title: "4 Krotoszyński Cross",
-        img: "img/2025/03_Marzec/23_Cross_Krotoszynski_5.jpg",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1743624050/23_Cross_Krotoszynski_5_ggttxs.jpg",
         description: "",
         albums: ["Bieganie"],
         date: "23.03.2025"
@@ -85,21 +85,21 @@ const posts = [
     },
     {
         title: "4 Krotoszyński Cross",
-        img: "img/2025/03_Marzec/23_Cross_Krotoszynski_3.jpg",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1743624017/23_Cross_Krotoszynski_3_eifq29.jpg",
         description: "",
         albums: ["Bieganie"],
         date: "23.03.2025"
     },
     {
         title: "4 Krotoszyński Cross",
-        img: "img/2025/03_Marzec/23_Cross_Krotoszynski_2.jpg",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1743623977/23_Cross_Krotoszynski_2_mftnat.jpg",
         description: "",
         albums: ["Bieganie"],
         date: "23.03.2025"
     },
     {
         title: "4 Krotoszyński Cross",
-        img: "img/2025/03_Marzec/23_Cross_Krotoszynski_1.jpg",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1743623941/23_Cross_Krotoszynski_1_zowza7.jpg",
         description: "",
         albums: ["Bieganie"],
         date: "23.03.2025"
