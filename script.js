@@ -22,29 +22,15 @@ const posts = [
     },
     { 
         title: "Mistrzostwa ZSP2", 
-        img: "img/2025/03_Marzec/28_Szachy_7.jpg", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1743690713/28_Szachy_7_cedexn.jpg", 
         description: "1 miejsce dla najlepszej klasy turnieju",
         albums: ["Szachy"],
         date: "28.03.2025"
     },
     { 
         title: "Mistrzostwa ZSP2", 
-        img: "img/2025/03_Marzec/28_Szachy_6.jpg", 
-        description: "",
-        albums: ["Szachy"],
-        date: "28.03.2025"
-    },
-    { 
-        title: "Mistrzostwa ZSP2", 
-        img: "img/2025/03_Marzec/28_Szachy_5.jpg", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1743690655/28_Szachy_5_xnihik.jpg", 
         description: "1 miejsce indywidualnie",
-        albums: ["Szachy"],
-        date: "28.03.2025"
-    },
-    { 
-        title: "Mistrzostwa ZSP2", 
-        img: "img/2025/03_Marzec/28_Szachy_4.jpg", 
-        description: "",
         albums: ["Szachy"],
         date: "28.03.2025"
     },
@@ -55,30 +41,9 @@ const posts = [
         albums: ["Szachy"],
         date: "28.03.2025"
     },
-    { 
-        title: "Mistrzostwa ZSP2", 
-        img: "img/2025/03_Marzec/28_Szachy_2.jpg", 
-        description: "",
-        albums: ["Szachy"],
-        date: "28.03.2025"
-    },
-    { 
-        title: "Mistrzostwa ZSP2", 
-        img: "img/2025/03_Marzec/28_Szachy_1.jpg", 
-        description: "",
-        albums: ["Szachy"],
-        date: "28.03.2025"
-    },
     {
         title: "4 Krotoszyński Cross",
         img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1743624050/23_Cross_Krotoszynski_5_ggttxs.jpg",
-        description: "",
-        albums: ["Bieganie"],
-        date: "23.03.2025"
-    },
-    {
-        title: "4 Krotoszyński Cross",
-        img: "img/2025/03_Marzec/23_Cross_Krotoszynski_4.jpg",
         description: "",
         albums: ["Bieganie"],
         date: "23.03.2025"
@@ -106,154 +71,133 @@ const posts = [
     },
     {
         title: "Biadki-Paprotki - staw III Wiórki",
-        img: "img/2025/03_Marzec/18_Szlak_Mickiewiczowski_3.jpg",
-        description: "Szlak Mickiewiczowski",
-        albums: ["Powiat Krotoszyński"],
-        date: "18.03.2025"
-    },
-    {
-        title: "Biadki-Paprotki - staw III Wiórki",
-        img: "img/2025/03_Marzec/18_Szlak_Mickiewiczowski_2.jpg",
-        description: "Szlak Mickiewiczowski",
-        albums: ["Powiat Krotoszyński"],
-        date: "18.03.2025"
-    },
-    {
-        title: "Biadki-Paprotki - staw III Wiórki",
-        img: "img/2025/03_Marzec/18_Szlak_Mickiewiczowski_1.jpg",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1743690901/18_Szlak_Mickiewiczowski_2_frtdyu.jpg",
         description: "Szlak Mickiewiczowski",
         albums: ["Powiat Krotoszyński"],
         date: "18.03.2025"
     },
     {
         title: "Sankturium Matki Bożej Pocieszenia",
-        img: "img/2025/03_Marzec/14_Szlak_Lesnych_Stawow_16.jpg",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1743690936/14_Szlak_Lesnych_Stawow_16_njkucq.jpg",
         description: "Lutogniew",
         albums: ["Powiat Krotoszyński"],
         date: "14.03.2025"
     },
     {
         title: "Dzierżanów - kapliczka z 1911 r.",
-        img: "img/2025/03_Marzec/14_Szlak_Lesnych_Stawow_15.jpg",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1743690968/14_Szlak_Lesnych_Stawow_15_aicexk.jpg",
         description: "Szlak Leśnych Stawów",
         albums: ["Powiat Krotoszyński"],
         date: "14.03.2025"
     },
     {
         title: "Figura św. Wawrzyńca",
-        img: "img/2025/03_Marzec/14_Szlak_Lesnych_Stawow_14.jpg",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1743690996/14_Szlak_Lesnych_Stawow_14_avr3np.jpg",
         description: "Dzierżanów",
         albums: ["Powiat Krotoszyński"],
         date: "14.03.2025"
     },
     {
         title: "Pałac Mielżyńskich",
-        img: "img/2025/03_Marzec/14_Szlak_Lesnych_Stawow_13.jpg",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1743691038/14_Szlak_Lesnych_Stawow_13_uglgac.jpg",
         description: "Baszków",
-        albums: ["Powiat Krotoszyński"],
+        albums: ["Powiat Krotoszyński", "Krotoszyńska Odznaka Krajoznawcza"],
         date: "14.03.2025"
     },
     {
         title: "Pałacyk Myśliwski",
-        img: "img/2025/03_Marzec/14_Szlak_Lesnych_Stawow_12.jpg",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1743691064/14_Szlak_Lesnych_Stawow_12_nm9igf.jpg",
         description: "Baszków",
         albums: ["Powiat Krotoszyński"],
         date: "14.03.2025"
     },
     {
         title: "Hadrianów - Staw Praczków",
-        img: "img/2025/03_Marzec/14_Szlak_Lesnych_Stawow_11.jpg",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1743691090/14_Szlak_Lesnych_Stawow_11_m9pxtr.jpg",
         description: "Szlak Leśnych Stawów",
         albums: ["Powiat Krotoszyński"],
         date: "14.03.2025"
     },
     {
         title: "Staw Węgielnik",
-        img: "img/2025/03_Marzec/14_Szlak_Lesnych_Stawow_10.jpg",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1743691116/14_Szlak_Lesnych_Stawow_10_phl7ff.jpg",
         description: "Szlak Leśnych Stawów",
         albums: ["Powiat Krotoszyński"],
         date: "14.03.2025"
     },
     {
         title: "Staw Węgielnik",
-        img: "img/2025/03_Marzec/14_Szlak_Lesnych_Stawow_09.jpg",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1743691144/14_Szlak_Lesnych_Stawow_09_xqpuka.jpg",
         description: "Szlak Leśnych Stawów",
         albums: ["Powiat Krotoszyński"],
         date: "14.03.2025"
     },
     {
         title: "Grodzisko Piaski",
-        img: "img/2025/03_Marzec/14_Szlak_Lesnych_Stawow_08.jpg",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1743691177/14_Szlak_Lesnych_Stawow_08_qe4qx9.jpg",
         description: "Szlak Leśnych Stawów",
         albums: ["Powiat Krotoszyński"],
         date: "14.03.2025"
     },
     {
         title: "Grodzisko pierścieniowe",
-        img: "img/2025/03_Marzec/14_Szlak_Lesnych_Stawow_07.jpg",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1743691203/14_Szlak_Lesnych_Stawow_07_gl73yj.jpg",
         description: "Zduny",
-        albums: ["Powiat Krotoszyński"],
+        albums: ["Powiat Krotoszyński", "Krotoszyńska Odznaka Krajoznawcza"],
         date: "14.03.2025"
     },
     {
         title: "Pomnik Powstania Wlkp.",
-        img: "img/2025/03_Marzec/14_Szlak_Lesnych_Stawow_06.jpg",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1743691233/14_Szlak_Lesnych_Stawow_06_uqzcdi.jpg",
         description: "Zduny",
-        albums: ["Powiat Krotoszyński"],
+        albums: ["Powiat Krotoszyński", "Krotoszyńska Odznaka Krajoznawcza"],
         date: "14.03.2025"
     },
     {
         title: "Kościół pw. św. Jana Chrzciciela w Zdunach",
-        img: "img/2025/03_Marzec/14_Szlak_Lesnych_Stawow_05.jpg",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1743691258/14_Szlak_Lesnych_Stawow_05_xbboxi.jpg",
         description: "Szlak Leśnych Stawów",
-        albums: ["Powiat Krotoszyński"],
+        albums: ["Powiat Krotoszyński", "Krotoszyńska Odznaka Krajoznawcza"],
         date: "14.03.2025"
     },
     {
         title: "Plac 700-lecia Zdun",
-        img: "img/2025/03_Marzec/14_Szlak_Lesnych_Stawow_04.jpg",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1743691292/14_Szlak_Lesnych_Stawow_04_u6mcfp.jpg",
         description: "Szlak Leśnych Stawów",
         albums: ["Powiat Krotoszyński"],
         date: "14.03.2025"
     },
     {
         title: "Kościół poewangelicki w Zdunach",
-        img: "img/2025/03_Marzec/14_Szlak_Lesnych_Stawow_03.jpg",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1743691321/14_Szlak_Lesnych_Stawow_03_jq3ne3.jpg",
         description: "Szlak Leśnych Stawów",
         albums: ["Powiat Krotoszyński"],
         date: "14.03.2025"
     },
     {
         title: "Izba Muzealna w Zdunach",
-        img: "img/2025/03_Marzec/14_Szlak_Lesnych_Stawow_02.jpg",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1743691419/14_Szlak_Lesnych_Stawow_02_q8yisf.jpg",
         description: "Szlak Leśnych Stawów",
-        albums: ["Powiat Krotoszyński"],
+        albums: ["Powiat Krotoszyński", "Krotoszyńska Odznaka Krajoznawcza"],
         date: "14.03.2025"
     },
     {
         title: "Ratusz w Zdunach",
-        img: "img/2025/03_Marzec/14_Szlak_Lesnych_Stawow_01.jpg",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1743691351/14_Szlak_Lesnych_Stawow_01_kj3wmc.jpg",
         description: "Szlak Leśnych Stawów",
-        albums: ["Powiat Krotoszyński"],
+        albums: ["Powiat Krotoszyński", "Krotoszyńska Odznaka Krajoznawcza"],
         date: "14.03.2025"
     },
     {
-        title: "Las",
-        img: "img/2025/03_Marzec/09_Las.jpg",
-        description: "",
-        albums: ["Powiat Krotoszyński"],
-        date: "09.03.2025"
-    },
-    {
         title: "Tropem Wilczym 25 Bieg Pamięci Żołnierzy Wyklętych",
-        img: "img/2025/03_Marzec/02_Bieg_Zolnierzy_Wykletych_2.jpg",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1743691456/02_Bieg_Zolnierzy_Wykletych_2_tclkmt.jpg",
         description: "",
         albums: ["Bieganie"],
         date: "02.03.2025"
     },
     {
         title: "Tropem Wilczym 25 Bieg Pamięci Żołnierzy Wyklętych",
-        img: "img/2025/03_Marzec/02_Bieg_Zolnierzy_Wykletych_1.jpg",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1743691483/02_Bieg_Zolnierzy_Wykletych_1_n0wibt.jpg",
         description: "",
         albums: ["Bieganie"],
         date: "02.03.2025"
