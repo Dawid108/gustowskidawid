@@ -99,9 +99,9 @@
 <body>
     <nav class="navbar">
         <a href="kod.html" class="nav-link">Posty</a>
-        <a href="#" class="nav-link">Filmy</a>
-        <a href="#" class="nav-link">Rolki</a>
-        <a href="#" class="nav-link active">Osiągnięcia</a>
+        <a onclick="showTable('biegi')" class="nav-link">Biegi</a>
+        <a onclick="showTable('szachy')" class="nav-link">Szachy</a>
+        <a onclick="showTable('osiagniecia')" class="nav-link active">Osiągnięcia</a>
     </nav>
     <br><br><br><br>
     <div class="container">
@@ -223,6 +223,40 @@
                 <tr>
                     <th>od 2025</th>
                     <td>Sokół Chwaliszew</td>
+                </tr>
+            </table>
+        </div>
+        <br>
+        <h1>Więcej</h1>
+        <div class="table-wrapper">
+            <table border="1">
+                <tr>
+                    <th>Instagram</th>
+                    <td><a href="https://www.instagram.com/dawi_108/">dawi_108</a></td>
+                </tr>
+                <tr>
+                    <th>Reels</th>
+                    <td><a href="https://www.instagram.com/dawi_108/reels/">dawi_108</a></td>
+                </tr>
+                <tr>
+                    <th>Mapy Google</th>
+                    <td><a href="https://maps.app.goo.gl/5NjEhu3p6fiA2BeV6?g_st=afm">Dawid 108</a></td>
+                </tr>
+                <tr>
+                    <th>Mapy.cz</th>
+                    <td><a href="https://mapy.com/s/fuvehatazo">dawi_108</a></td>
+                </tr>
+                <tr>
+                    <th>Strava</th>
+                    <td><a href="https://strava.app.link/qXNZ1ULBdSb">Dawid 108</a></td>
+                </tr>
+                <tr>
+                    <th>Szlaki</th>
+                    <td><a href="https://szlaki.app/user/2506a">Dawid 108</a></td>
+                </tr>
+                <tr>
+                    <th>TikTok</th>
+                    <td><a href="https://www.tiktok.com/@dawi_108">dawi_108</a></td>
                 </tr>
             </table>
         </div>
@@ -481,6 +515,16 @@
                     <th>Data</th>
                     <th>Miejsce</th>
                     <th>Punkty</th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><a href="https://www.chessmanager.com/pl-pl/tournaments/5116460377833472">
+                        I Turniej Szachowy O Puchar UKS Dragon Smolice 
+                    </a></td>
+                    <td>Smolice</td>
+                    <td>05.04.2025</td>
+                    <td>2</td>
+                    <td>5/7</td>
                 </tr>
                 <tr>
                     <td></td>
@@ -2518,7 +2562,7 @@
         }
 
         window.onload = function() {
-            showTable('biegi'); 
+            showTable('osiagniecia'); 
             numerateTables();
         };
 
