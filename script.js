@@ -1,5 +1,61 @@
 const posts = [
     { 
+        title: "I Turniej Szachowy O Puchar UKS Dragon Smolice", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744212195/05_Smolice_3_mpragh.jpg", 
+        description: "2 miejsce do lat 18",
+        albums: ["Szachy"],
+        date: "05.04.2025"
+    },
+    { 
+        title: "I Turniej Szachowy O Puchar UKS Dragon Smolice", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744212219/05_Smolice_2_ooynoa.jpg", 
+        description: "",
+        albums: ["Szachy"],
+        date: "05.04.2025"
+    },
+    { 
+        title: "I Turniej Szachowy O Puchar UKS Dragon Smolice", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744212242/05_Smolice_1_ij1am5.jpg", 
+        description: "",
+        albums: ["Szachy"],
+        date: "05.04.2025"
+    },
+    { 
+        title: "Stadion CKS Zduny", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744212270/04_CKS_Zduny_shiesj.jpg", 
+        description: "",
+        albums: ["Powiat Krotoszyński"],
+        date: "04.04.2025"
+    },
+    { 
+        title: "Wydmy (159 m)", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744212303/04_Wydmy_t7afyx.jpg", 
+        description: "",
+        albums: ["Szczyty Górskie"],
+        date: "04.04.2025"
+    },
+    { 
+        title: "Pozostałości Zapory Granicznej", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744212333/04_Zapora_bdxcgj.jpg", 
+        description: "",
+        albums: ["Polska"],
+        date: "04.04.2025"
+    },
+    { 
+        title: "Ścinka Drzew", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744212366/04_%C5%9Acinka_r30cuk.jpg", 
+        description: "",
+        albums: ["Powiat Krotoszyński"],
+        date: "04.04.2025"
+    },
+    { 
+        title: "Chachalnia", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744212393/04_Chachalnia_btqisp.jpg", 
+        description: "",
+        albums: ["Powiat Krotoszyński"],
+        date: "04.04.2025"
+    },
+    { 
         title: "XI Ostrowski Ice Mat Półmaraton", 
         img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1743623758/30_Ostrowski_Polmaraton_3_bgushx.jpg", 
         description: "",
@@ -201,6 +257,181 @@ const posts = [
         description: "",
         albums: ["Bieganie"],
         date: "02.03.2025"
+    },
+    {
+        title: "Zimowa Zabawa Biegowa",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744210741/23_Walerian%C3%B3w_1_fakulh.jpg",
+        description: "",
+        albums: ["Bieganie"],
+        date: "23.02.2025"
+    },
+    {
+        title: "IV Wielkopolska Liga Juniorów",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744211177/16_Szachy_hezqkd.jpg",
+        description: "Szachy",
+        albums: ["Szachy"],
+        date: "16.02.2025"
+    },
+    {
+        title: "Powiatowy Turniej Szachowy",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744211227/11_Szachy_2_ghz1ri.jpg",
+        description: "1 miejsce",
+        albums: ["Szachy"],
+        date: "11.02.2025"
+    },
+    {
+        title: "Powiatowy Turniej Szachowy",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744211253/11_Szachy_1_ym7jry.jpg",
+        description: "",
+        albums: ["Szachy"],
+        date: "11.02.2025"
+    },
+    {
+        title: "Moje 17 Urodziny",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744211300/07_Urodziny_2_yll2pi.jpg",
+        description: "",
+        albums: [""],
+        date: "07.02.2025"
+    },
+    {
+        title: "Moje 17 Urodziny",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744211324/07_Urodziny_1_cmkq7p.jpg",
+        description: "",
+        albums: [""],
+        date: "07.02.2025"
+    },
+    {
+        title: "Ołowiana (658 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744211361/02_O%C5%82owiana_2_gprvip.jpg",
+        description: "",
+        albums: ["Korona Gór Kaczawskich", "Szczyty Górskie"],
+        date: "02.02.2025"
+    },
+    {
+        title: "Ołowiana (658 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744211393/02_O%C5%82owiana_1_s5qs2z.jpg",
+        description: "",
+        albums: ["Korona Gór Kaczawskich", "Szczyty Górskie"],
+        date: "02.02.2025"
+    },
+    {
+        title: "Różanka (628 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744211435/02_R%C3%B3%C5%BCanka_3_jiyscc.jpg",
+        description: "",
+        albums: ["Korona Kaczawska", "Szczyty Górskie"],
+        date: "02.02.2025"
+    },
+    {
+        title: "Różanka (628 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744211456/02_R%C3%B3%C5%BCanka_2_ifkrtt.jpg",
+        description: "",
+        albums: ["Korona Kaczawska", "Szczyty Górskie"],
+        date: "02.02.2025"
+    },
+    {
+        title: "Różanka (628 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744211483/02_R%C3%B3%C5%BCanka_1_jrjhvn.jpg",
+        description: "",
+        albums: ["Korona Kaczawska", "Szczyty Górskie"],
+        date: "02.02.2025"
+    },
+    {
+        title: "Świeradów-Zdrój",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744211535/01_%C5%9Awierad%C3%B3w_tjmffo.jpg",
+        description: "",
+        albums: ["Polska"],
+        date: "01.02.2025"
+    },
+    {
+        title: "Stój Izerski (1107 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744211588/01_St%C3%B3g_Izerski_2_bkgzfu.jpg",
+        description: "",
+        albums: ["Korona Gór Izerskich", "Sudeckie Tysięczniki", "Szczyty Górskie","Turysta Polskich Izerów"],
+        date: "01.02.2025"
+    },
+    {
+        title: "Stój Izerski (1107 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744211621/01_St%C3%B3g_Izerski_1_mkpvyh.jpg",
+        description: "",
+        albums: ["Korona Gór Izerskich", "Sudeckie Tysięczniki", "Szczyty Górskie","Turysta Polskich Izerów", "Tysięczniki Polskich Gór"],
+        date: "01.02.2025"
+    },
+    {
+        title: "Świeradów-Zdrój",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744211664/31_%C5%9Awierad%C3%B3w_2_ciiiz9.jpg",
+        description: "",
+        albums: [""],
+        date: "31.01.2025"
+    },
+    {
+        title: "Świeradów-Zdrój",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744211691/31_%C5%9Awierad%C3%B3w_1_pco9po.jpg",
+        description: "",
+        albums: [""],
+        date: "31.01.2025"
+    },
+    {
+        title: "Świeradów-Zdrój",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744211726/30_%C5%9Awierad%C3%B3w_kn8rzl.jpg",
+        description: "",
+        albums: [""],
+        date: "30.01.2025"
+    },
+    {
+        title: "Skopiec (724 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744211761/30_Skopiec_hxirk0.jpg",
+        description: "",
+        albums: ["Diadem Polskich Gór", "Korona Gór Kaczawskich", "Korona Gór Polski","Korona Kaczawska", "Korona Sudetów", "Korona Sudetów Polskich", "Szczyty Górskie", "Tiara Polskich Gór"],
+        date: "30.01.2025"
+    },
+    {
+        title: "Baraniec (720 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744211792/30_Baraniec_nqnmka.jpg",
+        description: "",
+        albums: ["Diadem Polskich Gór", "Korona Gór Kaczawskich", "Korona Najwybitniejszych Szczytów Sudetów Polskich", "Małe Szczyty Polski", "Szczyty Górskie", "Tiara Polskich Gór"],
+        date: "30.01.2025"
+    },
+    {
+        title: "Ziemski Kopczyk (672 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744211827/30_Ziemski_Kopczyk_2_pbpehv.jpg",
+        description: "",
+        albums: ["Korona Gór Kaczawskich", "Szczyty Górskie"],
+        date: "30.01.2025"
+    },
+    {
+        title: "Ziemski Kopczyk (672 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744211856/30_Ziemski_Kopczyk_1_jvyer7.jpg",
+        description: "",
+        albums: ["Korona Gór Kaczawskich", "Szczyty Górskie"],
+        date: "30.01.2025"
+    },
+    {
+        title: "Leszczyniec (615 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744211887/30_Leszczyniec_s5hpnq.jpg",
+        description: "",
+        albums: ["Szczyty Górskie"],
+        date: "30.01.2025"
+    },
+    {
+        title: "Dudziarz (652 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744211915/30_Dudziarz_roz4xa.jpg",
+        description: "",
+        albums: ["Korona Gór Kaczawskich", "Szczyty Górskie"],
+        date: "30.01.2025"
+    },
+    {
+        title: "Żeleźniak (664 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744211941/30_%C5%BBele%C5%BAniak_ozvlek.jpg",
+        description: "",
+        albums: ["Korona Kaczawska", "Szczyty Górskie"],
+        date: "30.01.2025"
+    },
+    {
+        title: "Feryjny Turniej Szachowy Dla Dzieci i Młodzieży",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744212003/22_Zduny_nsjvn5.jpg",
+        description: "Zduny",
+        albums: ["Szachy"],
+        date: "22.01.2025"
     }
 ];
 
