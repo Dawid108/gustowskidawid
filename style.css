@@ -33,6 +33,7 @@ h1 {
 }
 
 .album-select select {
+    width: 200px;
     padding: 8px;
     font-size: 14px;
     border-radius: 5px;
