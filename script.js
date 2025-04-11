@@ -1,5 +1,82 @@
 const posts = [
     { 
+        title: "Grodziszcze (114 m)", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744379106/10_Grodziszcze_rrc6du.jpg", 
+        description: "",
+        albums: ["Szczyty Górskie"],
+        date: "10.04.2025"
+    },
+    { 
+        title: "Grodzisko Jelików", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744379074/10_Grodzisko_Jelik%C3%B3w_r9c0rn.jpg", 
+        description: "",
+        albums: [""],
+        date: "10.04.2025"
+    },
+    { 
+        title: "Barycz", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744379046/10_Barycz_y8ndxa.jpg", 
+        description: "",
+        albums: ["Polska"],
+        date: "10.04.2025"
+    },
+    { 
+        title: "Dąb Pamięci Ludwika Singera", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744379020/10_D%C4%85b_Pami%C4%99ci_hevlyy.jpg", 
+        description: "",
+        albums: [""],
+        date: "10.04.2025"
+    },
+    { 
+        title: "Jaz Bolko", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744378960/10_Jaz_Bolko_xk5xgi.jpg", 
+        description: "",
+        albums: ["Polska"],
+        date: "10.04.2025"
+    },
+    { 
+        title: "Specjalny Obszar Ochrony Siedlisk Natura 2000 Ostoja Nad Baryczą", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744378754/10_Ostoja_Nad_Barycz%C4%85_y6ytje.jpg", 
+        description: "",
+        albums: [""],
+        date: "10.04.2025"
+    },
+    { 
+        title: "Jankowa", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744378726/10_Jankowa_x5khwz.jpg", 
+        description: "",
+        albums: [""],
+        date: "10.04.2025"
+    },
+    { 
+        title: "Kościół pw. św. Macieja Apostoła w Trzebicku", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744378696/10_Trzebicko_2_ap0tgy.jpg", 
+        description: "",
+        albums: ["Polska"],
+        date: "10.04.2025"
+    },
+    { 
+        title: "Trzebicko", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744378625/10_Trzebicko_1_rkogih.jpg", 
+        description: "",
+        albums: [""],
+        date: "10.04.2025"
+    },
+    { 
+        title: "Winna Góra (178 m)", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744378599/10_Winna_G%C3%B3ra_femqsx.jpg", 
+        description: "",
+        albums: ["Szczyty Górskie"],
+        date: "10.04.2025"
+    },
+    { 
+        title: "Mistrzostwa Powiatu w Drużynowych Biegach Przełajowych", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744378288/10_Zduny_rhoctq.jpg", 
+        description: "",
+        albums: ["Bieganie"],
+        date: "10.04.2025"
+    },
+    { 
         title: "I Turniej Szachowy O Puchar UKS Dragon Smolice", 
         img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744212195/05_Smolice_3_mpragh.jpg", 
         description: "2 miejsce do lat 18",
@@ -346,7 +423,7 @@ const posts = [
         title: "Stój Izerski (1107 m)",
         img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744211588/01_St%C3%B3g_Izerski_2_bkgzfu.jpg",
         description: "",
-        albums: ["Korona Gór Izerskich", "Sudeckie Tysięczniki", "Szczyty Górskie","Turysta Polskich Izerów"],
+        albums: ["Korona Gór Izerskich", "Sudeckie Tysięczniki", "Szczyty Górskie","Turysta Polskich Izerów", "Tysięczniki Polskich Gór"],
         date: "01.02.2025"
     },
     {
