@@ -1,5 +1,26 @@
 const posts = [
     { 
+        title: "Sokół Chwaliszew", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744575087/13_Sokol_bkm5gc.jpg", 
+        description: "",
+        albums: [""],
+        date: "13.04.2025"
+    },
+    { 
+        title: "Półfinały Mistrzostw Wielkopolski Strefa Południowa", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744575059/12_Szachy_2_ljgst4.jpg", 
+        description: "3 miejsce",
+        albums: ["Szachy"],
+        date: "12.04.2025"
+    },
+    { 
+        title: "Półfinały Mistrzostw Wielkopolski Strefa Południowa", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744575033/12_Szachy_1_yd5xuu.jpg", 
+        description: "Szachy",
+        albums: ["Szachy"],
+        date: "12.04.2025"
+    },
+    { 
         title: "Grodziszcze (114 m)", 
         img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744379106/10_Grodziszcze_rrc6du.jpg", 
         description: "",
@@ -509,6 +530,125 @@ const posts = [
         description: "Zduny",
         albums: ["Szachy"],
         date: "22.01.2025"
+    },
+    {
+        title: "Świątynia File",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744574652/01_File_aashri.jpg",
+        description: "",
+        albums: ["Egipt"],
+        date: "01.01.2025"
+    },
+    {
+        title: "Krokodyl - Wioska Nubijska",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744574593/31_Krokodyl_pjd95v.jpg",
+        description: "",
+        albums: ["Egipt"],
+        date: "31.12.2024"
+    },
+    {
+        title: "Jezioro Nasera",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744574570/31_Nasera_i1t5qd.jpg",
+        description: "",
+        albums: ["Egipt"],
+        date: "31.12.2024"
+    },
+    {
+        title: "Wysoka Tama Asuan",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744574542/31_Tama_irhwce.jpg",
+        description: "",
+        albums: ["Egipt"],
+        date: "31.12.2024"
+    },
+    {
+        title: "Nil",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744574518/31_Nil_g02bpl.jpg",
+        description: "",
+        albums: ["Egipt"],
+        date: "31.12.2024"
+    },
+    {
+        title: "Kolosy Memnona",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744574469/29_Kolosy_bohmtt.jpg",
+        description: "",
+        albums: ["Egipt"],
+        date: "29.12.2024"
+    },
+    {
+        title: "Dolina Królów",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744574492/29_Valley_z2mtyd.jpg",
+        description: "",
+        albums: ["Egipt"],
+        date: "29.12.2024"
+    },
+    {
+        title: "Egipt",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744574433/29_Hatshepsut_2_ktv0ij.jpg",
+        description: "",
+        albums: ["Egipt"],
+        date: "29.12.2024"
+    },
+    {
+        title: "Świątynia Hatszepsut",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744574411/29_Hatshepsut_1_ubz9bc.jpg",
+        description: "",
+        albums: ["Egipt"],
+        date: "29.12.2024"
+    },
+    {
+        title: "Lot Balonem Nad Luksorem",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744574389/29_Balon_nzqxws.jpg",
+        description: "",
+        albums: ["Egipt"],
+        date: "29.12.2024"
+    },
+    {
+        title: "Świątynia Luksorska",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744574368/28_Luksor_xek2f6.jpg",
+        description: "",
+        albums: ["Egipt"],
+        date: "28.12.2024"
+    },
+    {
+        title: "Wielki Sfinks",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744574346/27_Sfinks_m8ornn.jpg",
+        description: "",
+        albums: ["Egipt"],
+        date: "27.12.2024"
+    },
+    {
+        title: "Piramidy w Gizie",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744574326/27_Piramidy_4_myi1c8.jpg",
+        description: "",
+        albums: ["Egipt"],
+        date: "27.12.2024"
+    },
+    {
+        title: "Piramida Cheopsa",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744574305/27_Piramidy_3_qgy9zn.jpg",
+        description: "",
+        albums: ["Egipt"],
+        date: "27.12.2024"
+    },
+    {
+        title: "Piramidy w Gizie",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744574281/27_Piramidy_2_ubwvkh.jpg",
+        description: "",
+        albums: ["Egipt"],
+        date: "27.12.2024"
+    },
+    {
+        title: "Piramidy w Gizie",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744574254/27_Piramidy_1_d9kcyf.jpg",
+        description: "",
+        albums: ["Egipt"],
+        date: "27.12.2024"
+    },
+    {
+        title: "Port Lotniczy Poznań-Ławica",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744574226/26_Pozna%C5%84_psalry.jpg",
+        description: "",
+        albums: [""],
+        date: "26.12.2024"
     }
 ];
 
