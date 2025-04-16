@@ -3,7 +3,7 @@ const posts = [
         title: "Sokół Chwaliszew", 
         img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744575087/13_Sokol_bkm5gc.jpg", 
         description: "",
-        albums: [""],
+        albums: ["Piłka Nożna"],
         date: "13.04.2025"
     },
     { 
@@ -31,7 +31,7 @@ const posts = [
         title: "Grodzisko Jelików", 
         img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744379074/10_Grodzisko_Jelik%C3%B3w_r9c0rn.jpg", 
         description: "",
-        albums: [""],
+        albums: ["Polska"],
         date: "10.04.2025"
     },
     { 
@@ -45,7 +45,7 @@ const posts = [
         title: "Dąb Pamięci Ludwika Singera", 
         img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744379020/10_D%C4%85b_Pami%C4%99ci_hevlyy.jpg", 
         description: "",
-        albums: [""],
+        albums: ["Polska"],
         date: "10.04.2025"
     },
     { 
@@ -59,14 +59,14 @@ const posts = [
         title: "Specjalny Obszar Ochrony Siedlisk Natura 2000 Ostoja Nad Baryczą", 
         img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744378754/10_Ostoja_Nad_Barycz%C4%85_y6ytje.jpg", 
         description: "",
-        albums: [""],
+        albums: ["Polska"],
         date: "10.04.2025"
     },
     { 
         title: "Jankowa", 
         img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744378726/10_Jankowa_x5khwz.jpg", 
         description: "",
-        albums: [""],
+        albums: ["Polska"],
         date: "10.04.2025"
     },
     { 
@@ -80,7 +80,7 @@ const posts = [
         title: "Trzebicko", 
         img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744378625/10_Trzebicko_1_rkogih.jpg", 
         description: "",
-        albums: [""],
+        albums: ["Polska"],
         date: "10.04.2025"
     },
     { 
@@ -255,7 +255,7 @@ const posts = [
         title: "Pałac Mielżyńskich",
         img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1743691038/14_Szlak_Lesnych_Stawow_13_uglgac.jpg",
         description: "Baszków",
-        albums: ["Powiat Krotoszyński", "Krotoszyńska Odznaka Krajoznawcza"],
+        albums: ["Powiat Krotoszyński"],
         date: "14.03.2025"
     },
     {
@@ -297,21 +297,21 @@ const posts = [
         title: "Grodzisko pierścieniowe",
         img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1743691203/14_Szlak_Lesnych_Stawow_07_gl73yj.jpg",
         description: "Zduny",
-        albums: ["Powiat Krotoszyński", "Krotoszyńska Odznaka Krajoznawcza"],
+        albums: ["Powiat Krotoszyński"],
         date: "14.03.2025"
     },
     {
         title: "Pomnik Powstania Wlkp.",
         img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1743691233/14_Szlak_Lesnych_Stawow_06_uqzcdi.jpg",
         description: "Zduny",
-        albums: ["Powiat Krotoszyński", "Krotoszyńska Odznaka Krajoznawcza"],
+        albums: ["Powiat Krotoszyński"],
         date: "14.03.2025"
     },
     {
         title: "Kościół pw. św. Jana Chrzciciela w Zdunach",
         img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1743691258/14_Szlak_Lesnych_Stawow_05_xbboxi.jpg",
         description: "Szlak Leśnych Stawów",
-        albums: ["Powiat Krotoszyński", "Krotoszyńska Odznaka Krajoznawcza"],
+        albums: ["Powiat Krotoszyński"],
         date: "14.03.2025"
     },
     {
@@ -332,14 +332,14 @@ const posts = [
         title: "Izba Muzealna w Zdunach",
         img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1743691419/14_Szlak_Lesnych_Stawow_02_q8yisf.jpg",
         description: "Szlak Leśnych Stawów",
-        albums: ["Powiat Krotoszyński", "Krotoszyńska Odznaka Krajoznawcza"],
+        albums: ["Powiat Krotoszyński"],
         date: "14.03.2025"
     },
     {
         title: "Ratusz w Zdunach",
         img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1743691351/14_Szlak_Lesnych_Stawow_01_kj3wmc.jpg",
         description: "Szlak Leśnych Stawów",
-        albums: ["Powiat Krotoszyński", "Krotoszyńska Odznaka Krajoznawcza"],
+        albums: ["Powiat Krotoszyński"],
         date: "14.03.2025"
     },
     {
@@ -402,35 +402,35 @@ const posts = [
         title: "Ołowiana (658 m)",
         img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744211361/02_O%C5%82owiana_2_gprvip.jpg",
         description: "",
-        albums: ["Korona Gór Kaczawskich", "Szczyty Górskie"],
+        albums: ["Góry Kaczawskie", "Szczyty Górskie"],
         date: "02.02.2025"
     },
     {
         title: "Ołowiana (658 m)",
         img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744211393/02_O%C5%82owiana_1_s5qs2z.jpg",
         description: "",
-        albums: ["Korona Gór Kaczawskich", "Szczyty Górskie"],
+        albums: ["Góry Kaczawskie", "Szczyty Górskie"],
         date: "02.02.2025"
     },
     {
         title: "Różanka (628 m)",
         img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744211435/02_R%C3%B3%C5%BCanka_3_jiyscc.jpg",
         description: "",
-        albums: ["Korona Kaczawska", "Szczyty Górskie"],
+        albums: ["Góry Kaczawskie", "Szczyty Górskie"],
         date: "02.02.2025"
     },
     {
         title: "Różanka (628 m)",
         img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744211456/02_R%C3%B3%C5%BCanka_2_ifkrtt.jpg",
         description: "",
-        albums: ["Korona Kaczawska", "Szczyty Górskie"],
+        albums: ["Góry Kaczawskie", "Szczyty Górskie"],
         date: "02.02.2025"
     },
     {
         title: "Różanka (628 m)",
         img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744211483/02_R%C3%B3%C5%BCanka_1_jrjhvn.jpg",
         description: "",
-        albums: ["Korona Kaczawska", "Szczyty Górskie"],
+        albums: ["Góry Kaczawskie", "Szczyty Górskie"],
         date: "02.02.2025"
     },
     {
@@ -444,84 +444,84 @@ const posts = [
         title: "Stój Izerski (1107 m)",
         img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744211588/01_St%C3%B3g_Izerski_2_bkgzfu.jpg",
         description: "",
-        albums: ["Korona Gór Izerskich", "Sudeckie Tysięczniki", "Szczyty Górskie","Turysta Polskich Izerów", "Tysięczniki Polskich Gór"],
+        albums: ["Góry Izerskie", "Szczyty Górskie"],
         date: "01.02.2025"
     },
     {
         title: "Stój Izerski (1107 m)",
         img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744211621/01_St%C3%B3g_Izerski_1_mkpvyh.jpg",
         description: "",
-        albums: ["Korona Gór Izerskich", "Sudeckie Tysięczniki", "Szczyty Górskie","Turysta Polskich Izerów", "Tysięczniki Polskich Gór"],
+        albums: ["Góry Izerskie", "Szczyty Górskie"],
         date: "01.02.2025"
     },
     {
         title: "Świeradów-Zdrój",
         img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744211664/31_%C5%9Awierad%C3%B3w_2_ciiiz9.jpg",
         description: "",
-        albums: [""],
+        albums: ["Polska"],
         date: "31.01.2025"
     },
     {
         title: "Świeradów-Zdrój",
         img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744211691/31_%C5%9Awierad%C3%B3w_1_pco9po.jpg",
         description: "",
-        albums: [""],
+        albums: ["Polska"],
         date: "31.01.2025"
     },
     {
         title: "Świeradów-Zdrój",
         img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744211726/30_%C5%9Awierad%C3%B3w_kn8rzl.jpg",
         description: "",
-        albums: [""],
+        albums: ["Polska"],
         date: "30.01.2025"
     },
     {
         title: "Skopiec (724 m)",
         img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744211761/30_Skopiec_hxirk0.jpg",
         description: "",
-        albums: ["Diadem Polskich Gór", "Korona Gór Kaczawskich", "Korona Gór Polski","Korona Kaczawska", "Korona Sudetów", "Korona Sudetów Polskich", "Szczyty Górskie", "Tiara Polskich Gór"],
+        albums: ["Góry Kaczawskie", "Szczyty Górskie"],
         date: "30.01.2025"
     },
     {
         title: "Baraniec (720 m)",
         img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744211792/30_Baraniec_nqnmka.jpg",
         description: "",
-        albums: ["Diadem Polskich Gór", "Korona Gór Kaczawskich", "Korona Najwybitniejszych Szczytów Sudetów Polskich", "Małe Szczyty Polski", "Szczyty Górskie", "Tiara Polskich Gór"],
+        albums: ["Góry Kaczawskie", "Szczyty Górskie"],
         date: "30.01.2025"
     },
     {
         title: "Ziemski Kopczyk (672 m)",
         img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744211827/30_Ziemski_Kopczyk_2_pbpehv.jpg",
         description: "",
-        albums: ["Korona Gór Kaczawskich", "Szczyty Górskie"],
+        albums: ["Góry Kaczawskie", "Szczyty Górskie"],
         date: "30.01.2025"
     },
     {
         title: "Ziemski Kopczyk (672 m)",
         img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744211856/30_Ziemski_Kopczyk_1_jvyer7.jpg",
         description: "",
-        albums: ["Korona Gór Kaczawskich", "Szczyty Górskie"],
+        albums: ["Góry Kaczawskie", "Szczyty Górskie"],
         date: "30.01.2025"
     },
     {
         title: "Leszczyniec (615 m)",
         img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744211887/30_Leszczyniec_s5hpnq.jpg",
         description: "",
-        albums: ["Szczyty Górskie"],
+        albums: ["Góry Kaczawskie", "Szczyty Górskie"],
         date: "30.01.2025"
     },
     {
         title: "Dudziarz (652 m)",
         img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744211915/30_Dudziarz_roz4xa.jpg",
         description: "",
-        albums: ["Korona Gór Kaczawskich", "Szczyty Górskie"],
+        albums: ["Góry Kaczawskie", "Szczyty Górskie"],
         date: "30.01.2025"
     },
     {
         title: "Żeleźniak (664 m)",
         img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744211941/30_%C5%BBele%C5%BAniak_ozvlek.jpg",
         description: "",
-        albums: ["Korona Kaczawska", "Szczyty Górskie"],
+        albums: ["Góry Kaczawskie", "Szczyty Górskie"],
         date: "30.01.2025"
     },
     {
@@ -647,8 +647,351 @@ const posts = [
         title: "Port Lotniczy Poznań-Ławica",
         img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744574226/26_Pozna%C5%84_psalry.jpg",
         description: "",
-        albums: [""],
+        albums: ["Polska"],
         date: "26.12.2024"
+    },
+    {
+        title: "Praga",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744819177/18_Praga_jln27o.jpg",
+        description: "",
+        albums: ["Czechy"],
+        date: "18.12.2024"
+    },
+    {
+        title: "Mikołajkowy Turniej Szachowy Rozdrażew 2024",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744819199/08_Rozdra%C5%BCew_3_iex80g.jpg",
+        description: "",
+        albums: ["Szachy"],
+        date: "08.12.2024"
+    },
+    {
+        title: "Mikołajkowy Turniej Szachowy Rozdrażew 2024",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744819230/08_Rozdra%C5%BCew_2_p94f6b.jpg",
+        description: "3 miejsce",
+        albums: ["Szachy"],
+        date: "08.12.2024"
+    },
+    {
+        title: "Mikołajkowy Turniej Szachowy Rozdrażew 2024",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744819254/08_Rozdra%C5%BCew_1_rnffh3.jpg",
+        description: "",
+        albums: ["Szachy"],
+        date: "08.12.2024"
+    },
+    {
+        title: "13 Bieg w Poszukiwaniu Św. Mikołaja w Prusicach",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744819276/07_Prusice_tmqmjs.jpg",
+        description: "5km w 19 min i 17 sek",
+        albums: ["Bieganie"],
+        date: "07.12.2024"
+    },
+    {
+        title: "The Mystery Of Banksy",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744819306/03_Banksy_juflux.jpg",
+        description: "Wycieczka Szkolna, Poznań",
+        albums: ["Polska"],
+        date: "03.12.2024"
+    },
+    {
+        title: "Mistrzostwa Powiatu w Drużynowych Szachach",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744819356/14_Smolice_2_cwuqmx.jpg",
+        description: "Smolice",
+        albums: ["Szachy"],
+        date: "14.11.2024"
+    },
+    {
+        title: "Mistrzostwa Powiatu w Drużynowych Szachach",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744819386/14_Smolice_1_kkx1pc.jpg",
+        description: "Smolice",
+        albums: ["Szachy"],
+        date: "14.11.2024"
+    },
+    {
+        title: "Kościół Rzymskokatolicki pw. Narodzenia NMP Grzmiąca",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744819425/11_Grzmi%C4%85ca_zx6ybg.jpg",
+        description: "",
+        albums: ["Polska"],
+        date: "11.11.2024"
+    },
+    {
+        title: "Jeleniec Mały (741 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744819460/11_Jeleniec_Ma%C5%82y_tgexrn.jpg",
+        description: "",
+        albums: ["Góry Kamienne", "Szczyty Górskie"],
+        date: "11.11.2024"
+    },
+    {
+        title: "Rogowiec (870 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744819493/11_Rogowiec_sdyan1.jpg",
+        description: "",
+        albums: ["Góry Kamienne", "Szczyty Górskie"],
+        date: "11.11.2024"
+    },
+    {
+        title: "Rogowiec (870 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744819518/11_Rogowiec_2_d82lze.jpg",
+        description: "",
+        albums: ["Góry Kamienne", "Szczyty Górskie"],
+        date: "11.11.2024"
+    },
+    {
+        title: "Jeleniec (902 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744819546/11_Jeleniec_2_ciozrv.jpg",
+        description: "",
+        albums: ["Góry Kamienne", "Szczyty Górskie"],
+        date: "11.11.2024"
+    },
+    {
+        title: "Jeleniec (902 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744819576/11_Jeleniec_emavu6.jpg",
+        description: "",
+        albums: ["Góry Kamienne", "Szczyty Górskie"],
+        date: "11.11.2024"
+    },
+    {
+        title: "Warzęcha (793 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744819607/11_Warzecha_nok8ra.jpg",
+        description: "",
+        albums: ["Góry Kamienne", "Szczyty Górskie"],
+        date: "11.11.2024"
+    },
+    {
+        title: "Gomólnik Mały (809 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744819637/11_Gom%C3%B3lnik_2_x7ybju.jpg",
+        description: "",
+        albums: ["Góry Kamienne", "Wieże Widokowe", "Szczyty Górskie"],
+        date: "11.11.2024"
+    },
+    {
+        title: "Gomólnik Mały (809 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744819665/11_Gom%C3%B3lnik_k4dtcr.jpg",
+        description: "",
+        albums: ["Góry Kamienne", "Szczyty Górskie"],
+        date: "11.11.2024"
+    },
+    {
+        title: "Mniszek (704 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744819696/10_Mniszek_vyxabb.jpg",
+        description: "",
+        albums: ["Góry Wałbrzyskie", "Szczyty Górskie"],
+        date: "10.11.2024"
+    },
+    {
+        title: "Boreczna (710 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744819728/10_Boreczna_j047nz.jpg",
+        description: "",
+        albums: ["Góry Wałbrzyskie", "Szczyty Górskie"],
+        date: "10.11.2024"
+    },
+    {
+        title: "Dzikowiec Mały (695 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744819762/10_Dzikowiec_Ma%C5%82y_xawop0.jpg",
+        description: "",
+        albums: ["Góry Kamienne", "Szczyty Górskie"],
+        date: "10.11.2024"
+    },
+    {
+        title: "Łyse Drzewo (757 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744819795/10_Drzewo_nefvrh.jpg",
+        description: "",
+        albums: ["Góry Kamienne", "Szczyty Górskie"],
+        date: "10.11.2024"
+    },
+    {
+        title: "Sokółka (800 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744819825/10_Sok%C3%B3%C5%82ka_hcs0ej.jpg",
+        description: "",
+        albums: ["Góry Kamienne", "Szczyty Górskie"],
+        date: "10.11.2024"
+    },
+    {
+        title: "Wysoka (808 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744819856/10_Wysoka_yy1vkf.jpg",
+        description: "",
+        albums: ["Góry Kamienne", "Szczyty Górskie"],
+        date: "10.11.2024"
+    },
+    {
+        title: "Stachoń (808 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744819886/10_Stacho%C5%84_ck2xjw.jpg",
+        description: "",
+        albums: ["Góry Kamienne", "Szczyty Górskie"],
+        date: "10.11.2024"
+    },
+    {
+        title: "Stachonik (687 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744819923/10_Stachonik_sgdw1f.jpg",
+        description: "",
+        albums: ["Góry Kamienne", "Szczyty Górskie"],
+        date: "10.11.2024"
+    },
+    {
+        title: "Brzozówka (765 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744819953/10_Brzoz%C3%B3wka_kwyygu.jpg",
+        description: "",
+        albums: ["Góry Kamienne", "Szczyty Górskie"],
+        date: "10.11.2024"
+    },
+    {
+        title: "Dzikowiec Wielki (836 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744820000/10_Dzikowiec_5_uwmsot.jpg",
+        description: "",
+        albums: ["Góry Kamienne", "Wieże Widokowe", "Szczyty Górskie"],
+        date: "10.11.2024"
+    },
+    {
+        title: "Dzikowiec Wielki (836 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744820028/10_Dzikowiec_4_lbbdwo.jpg",
+        description: "",
+        albums: ["Góry Kamienne", "Szczyty Górskie"],
+        date: "10.11.2024"
+    },
+    {
+        title: "Dzikowiec Wielki (836 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744820061/10_Dzikowiec_3_jm6mto.jpg",
+        description: "",
+        albums: ["Góry Kamienne", "Wieże Widokowe", "Szczyty Górskie"],
+        date: "10.11.2024"
+    },
+    {
+        title: "Wieża Widokowa Dzikowiec",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744820095/10_Dzikowiec_2_hvvqmq.jpg",
+        description: "",
+        albums: ["Wieże Widokowe"],
+        date: "10.11.2024"
+    },
+    {
+        title: "Stok Narciarski Dzikowiec",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744820130/10_Dzikowiec_kacnyd.jpg",
+        description: "",
+        albums: ["Polska"],
+        date: "10.11.2024"
+    },
+    {
+        title: "Ośrodek Sportowo-Rekreacyjny Dzikowiec",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744820158/10_Dzikowiec_6_kfyueg.jpg",
+        description: "",
+        albums: ["Polska"],
+        date: "10.11.2024"
+    },
+    {
+        title: "Zamkowa Góra (618 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744820198/09_Zamkowa_2_poistv.jpg",
+        description: "",
+        albums: ["Góry Wałbrzyskie", "Szczyty Górskie"],
+        date: "09.11.2024"
+    },
+    {
+        title: "Zamek Nowy Dwór",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744820230/09_Zamkowa_bkebtt.jpg",
+        description: "",
+        albums: ["Zamki"],
+        date: "09.11.2024"
+    },
+    {
+        title: "Góra Parkowa (508 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744820263/09_Parkowa_4_fl9eyn.jpg",
+        description: "",
+        albums: ["Wieże Widokowe", "Góry Wałbrzyskie", "Szczyty Górskie"],
+        date: "09.11.2024"
+    },
+    {
+        title: "Góra Parkowa (508 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744820296/09_Parkowa_3_moqebh.jpg",
+        description: "",
+        albums: ["Góry Wałbrzyskie", "Szczyty Górskie"],
+        date: "09.11.2024"
+    },
+    {
+        title: "Schronisko Harcówka",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744820330/09_Harc%C3%B3wka_2_anip4g.jpg",
+        description: "",
+        albums: ["Schroniska Górskie"],
+        date: "09.11.2024"
+    },
+    {
+        title: "Schronisko Harcówka",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744820364/09_Harc%C3%B3wka_tz4ehb.jpg",
+        description: "",
+        albums: ["Schroniska Górskie"],
+        date: "09.11.2024"
+    },
+    {
+        title: "Wieża Widokowa Na Górze Parkowej",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744820402/09_Parkowa_2_ot2hjn.jpg",
+        description: "",
+        albums: ["Wieże Widokowe"],
+        date: "09.11.2024"
+    },
+    {
+        title: "Wieża Widokowa Na Górze Parkowej",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744820447/09_Parkowa_tgrza2.jpg",
+        description: "",
+        albums: ["Wieże Widokowe"],
+        date: "09.11.2024"
+    },
+    {
+        title: "Ptasia Kopa (590 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744820480/09_Ptasia_Kopa_rioak3.jpg",
+        description: "",
+        albums: ["Góry Wałbrzyskie", "Szczyty Górskie"],
+        date: "09.11.2024"
+    },
+    {
+        title: "Lisi Kamień (600 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744820518/09_Lisi_Kamie%C5%84_xgn8jp.jpg",
+        description: "",
+        albums: ["Góry Wałbrzyskie", "Szczyty Górskie"],
+        date: "09.11.2024"
+    },
+    {
+        title: "Czarnuszka (530 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744820552/09_Czarnuszka_qbifaa.jpg",
+        description: "",
+        albums: ["Góry Wałbrzyskie", "Szczyty Górskie"],
+        date: "09.11.2024"
+    },
+    {
+        title: "Stróżek (517 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744820582/09_Str%C3%B3%C5%BCek_pnedzn.jpg",
+        description: "",
+        albums: ["Góry Wałbrzyskie", "Szczyty Górskie"],
+        date: "09.11.2024"
+    },
+    {
+        title: "Wzgórze Gedymina (532 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744820615/09_Gedymin_iewysm.jpg",
+        description: "",
+        albums: ["Góry Wałbrzyskie", "Wieże Widokowe", "Szczyty Górskie"],
+        date: "09.11.2024"
+    },
+    {
+        title: "Urząd Miejski w Szczawnie-Zdroju",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744820649/09_Szczawno_2_l7h94a.jpg",
+        description: "",
+        albums: ["Polska"],
+        date: "09.11.2024"
+    },
+    {
+        title: "Uzdrowisko Szczawno-Jedlina",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744820680/09_Szczawno_1_lumf7d.jpg",
+        description: "",
+        albums: ["Polska"],
+        date: "09.11.2024"
+    },
+    {
+        title: "Wieża Anny",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744820712/09_Anna_ek2i1d.jpg",
+        description: "Szczawno-Zdrój",
+        albums: ["Wieże Widokowe"],
+        date: "09.11.2024"
+    },
+    {
+        title: "Rynek z Figura Św. Jana Nepomucenta w Rozdrażewie",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744820750/01_Rozdra%C5%BCew_gdwhpy.jpg",
+        description: "",
+        albums: ["Powiat Krotoszyński"],
+        date: "01.11.2024"
     }
 ];
 
