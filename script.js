@@ -1,5 +1,243 @@
 const posts = [
     { 
+        title: "Schronisko Telesforówka", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745436219/18_Schronisko_Trzy_Kopce_xjtctz.jpg", 
+        description: "",
+        albums: ["Schroniska Górskie"],
+        date: "18.04.2025"
+    },
+    { 
+        title: "Trzy Kopce Wiślańskie (810 m)", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745436191/18_Trzy_Kopce_u51hii.jpg", 
+        description: "",
+        albums: ["Beskid Śląski", "Szczyty Górskie"],
+        date: "18.04.2025"
+    },
+    { 
+        title: "Kamienny (790 m)", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745436163/18_Kamienny_tj125o.jpg", 
+        description: "",
+        albums: ["Beskid Śląski", "Szczyty Górskie"],
+        date: "18.04.2025"
+    },
+    { 
+        title: "Skocznia Narciarska Imienia Adama Małysza", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745436135/18_Adam_Ma%C5%82ysz_e3j6go.jpg", 
+        description: "",
+        albums: ["Polska"],
+        date: "18.04.2025"
+    },
+    { 
+        title: "Kompleks Skoczni Narciarskich Skalite Szczyrk", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745436107/18_Szczyrk_nbwzzk.jpg", 
+        description: "",
+        albums: ["Polska"],
+        date: "18.04.2025"
+    },
+    { 
+        title: "Matyska (609 m)", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745436077/18_Matyska_4_suynon.jpg", 
+        description: "",
+        albums: ["Beskid Śląski", "Szczyty Górskie"],
+        date: "18.04.2025"
+    },
+    { 
+        title: "Matyska (609 m)", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745436050/18_Matyska_3_zon7qt.jpg", 
+        description: "",
+        albums: ["Beskid Śląski", "Szczyty Górskie"],
+        date: "18.04.2025"
+    },
+    { 
+        title: "Matyska (609 m)", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745436026/18_Matyska_2_clgtsa.jpg", 
+        description: "",
+        albums: ["Beskid Śląski", "Szczyty Górskie"],
+        date: "18.04.2025"
+    },
+    { 
+        title: "Matyska (609 m)", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745436000/18_Matyska_mjzucg.jpg", 
+        description: "",
+        albums: ["Beskid Śląski", "Szczyty Górskie"],
+        date: "18.04.2025"
+    },
+    { 
+        title: "Rachowiec (954 m)", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745435973/18_Rachowiec_4_yejdty.jpg", 
+        description: "",
+        albums: ["Beskid Żywiecki", "Szczyty Górskie"],
+        date: "18.04.2025"
+    },
+    { 
+        title: "Rachowiec (954 m)", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745435949/18_Rachowiec_3_shsbdu.jpg", 
+        description: "",
+        albums: ["Wieże Widokowe"],
+        date: "18.04.2025"
+    },
+    { 
+        title: "Rachowiec (954 m)", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745435921/18_Rachowiec_2_ic4a5l.jpg", 
+        description: "",
+        albums: ["Beskid Żywiecki", "Szczyty Górskie"],
+        date: "18.04.2025"
+    },
+    { 
+        title: "Rachowiec (954 m)", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745435888/18_Rachowiec_arvylk.jpg", 
+        description: "",
+        albums: ["Beskid Żywiecki", "Szczyty Górskie"],
+        date: "18.04.2025"
+    },
+    { 
+        title: "Ochodzita (895 m)", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745435858/18_Ochodzita_4_a6iau9.jpg", 
+        description: "",
+        albums: ["Beskid Śląski", "Szczyty Górskie"],
+        date: "18.04.2025"
+    },
+    { 
+        title: "Ochodzita (895 m)", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745435832/18_Ochodzita_3_yiygba.jpg", 
+        description: "",
+        albums: ["Beskid Śląski", "Szczyty Górskie"],
+        date: "18.04.2025"
+    },
+    { 
+        title: "Ochodzita (895 m)", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745435807/18_Ochodzita_2_wbdors.jpg", 
+        description: "",
+        albums: ["Beskid Śląski", "Szczyty Górskie"],
+        date: "18.04.2025"
+    },
+    { 
+        title: "Ochodzita (895 m)", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745435780/18_Ochodzita_nrkcer.jpg", 
+        description: "",
+        albums: ["Beskid Śląski", "Szczyty Górskie"],
+        date: "18.04.2025"
+    },
+    { 
+        title: "Tuł (621 m)", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745434459/17_Tu%C5%82_lckj1n.jpg", 
+        description: "",
+        albums: ["Beskid Śląski", "Szczyty Górskie"],
+        date: "17.04.2025"
+    },
+    { 
+        title: "Wieża Piastowska Cieszyn", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745434431/17_Cieszyn_Wie%C5%BCa_2_lcpsjc.jpg", 
+        description: "",
+        albums: ["Wieże Widokowe"],
+        date: "17.04.2025"
+    },
+    { 
+        title: "Rotunda pw. św. Mikołaja w Cieszynie", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745434404/17_Cieszyn_2_hvj9lh.jpg", 
+        description: "",
+        albums: ["Polska"],
+        date: "17.04.2025"
+    },
+    { 
+        title: "Rotunda pw. św. Mikołaja w Cieszynie", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745434376/17_Cieszyn_ppabqy.jpg", 
+        description: "",
+        albums: ["Polska"],
+        date: "17.04.2025"
+    },
+    { 
+        title: "Wieża Piastowska Cieszyn", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745434348/17_Cieszyn_Wie%C5%BCa_ul6iln.jpg", 
+        description: "",
+        albums: ["Wieże Widokowe"],
+        date: "17.04.2025"
+    },
+    { 
+        title: "Jastrzębski Węgiel", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745434323/17_Jastrz%C4%99bski_W%C4%99giel_2_fh67ro.jpg", 
+        description: "Hala Widowiskowo-Sportowa",
+        albums: ["Polska"],
+        date: "17.04.2025"
+    },
+    { 
+        title: "Jastrzębski Węgiel", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745434299/17_Jastrz%C4%99bski_W%C4%99giel_imz5wi.jpg", 
+        description: "Hala Widowiskowo-Sportowa",
+        albums: ["Polska"],
+        date: "17.04.2025"
+    },
+    { 
+        title: "Topola Tekla", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745434277/17_Topola_Tekla_gwnuli.jpg", 
+        description: "",
+        albums: ["Polska"],
+        date: "17.04.2025"
+    },
+    { 
+        title: "Zamek w Chudowie", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745434246/17_Chud%C3%B3w_gm5yvj.jpg", 
+        description: "",
+        albums: ["Zamki"],
+        date: "17.04.2025"
+    },
+    { 
+        title: "PreZero Arena Gliwice", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745434224/17_Arena_Gliwice_dggcrc.jpg", 
+        description: "",
+        albums: ["Polska"],
+        date: "17.04.2025"
+    },
+    { 
+        title: "Zamek Piastowski w Gliwicach", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745434202/17_Zamek_Gliwice_2_o5cbnj.jpg", 
+        description: "",
+        albums: ["Zamki"],
+        date: "17.04.2025"
+    },
+    { 
+        title: "Zamek Piastowski w Gliwicach", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745434177/17_Zamek_Gliwice_kme1mf.jpg", 
+        description: "",
+        albums: ["Zamki"],
+        date: "17.04.2025"
+    },
+    { 
+        title: "Kościół Rzymskokatolicki pw. Wszystkich Świętych w Gliwicach", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745434151/17_Ko%C5%9Bci%C3%B3%C5%82_xvk0go.jpg", 
+        description: "",
+        albums: ["Wieże Widokowe"],
+        date: "17.04.2025"
+    },
+    { 
+        title: "Piast Gliwice", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745434098/17_Stadion_2_wkesqx.jpg", 
+        description: "Stadion Miejski w Gliwicach im. Piotra Wieczorka",
+        albums: ["Stadiony"],
+        date: "17.04.2025"
+    },
+    { 
+        title: "Piast Gliwice", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745434098/17_Stadion_eevjox.jpg", 
+        description: "Stadion Miejski w Gliwicach im. Piotra Wieczorka",
+        albums: ["Stadiony"],
+        date: "17.04.2025"
+    },
+    { 
+        title: "Radiostacja Gliwice", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745434069/17_Radiostacja_2_nmddtu.jpg", 
+        description: "",
+        albums: ["Polska"],
+        date: "17.04.2025"
+    },
+    { 
+        title: "Radiostacja Gliwice", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745434048/17_Radiostacja_bjdf0s.jpg", 
+        description: "",
+        albums: ["Polska"],
+        date: "17.04.2025"
+    },
+    { 
         title: "Sokół Chwaliszew", 
         img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744575087/13_Sokol_bkm5gc.jpg", 
         description: "",
