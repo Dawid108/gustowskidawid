@@ -1,5 +1,250 @@
 const posts = [
     { 
+        title: "Gościniec Równica - Schronisko", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745477794/22_Schronisko_R%C3%B3wnica_arysoy.jpg", 
+        description: "",
+        albums: ["Schroniska Górskie"],
+        date: "22.04.2025"
+    },
+    { 
+        title: "Dwór Skibówki", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745477763/22_R%C3%B3wnica_2_noxidu.jpg", 
+        description: "",
+        albums: ["Polska"],
+        date: "22.04.2025"
+    },
+    { 
+        title: "Równica (884 m)", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745477736/22_R%C3%B3wnica_3_aqyc93.jpg", 
+        description: "",
+        albums: ["Beskid Śląski", "Szczyty Górskie"],
+        date: "22.04.2025"
+    },
+    { 
+        title: "Równica (884 m)", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745477711/22_R%C3%B3wnica_rmghw6.jpg", 
+        description: "",
+        albums: ["Beskid Śląski", "Szczyty Górskie"],
+        date: "22.04.2025"
+    },
+    { 
+        title: "Schronisko Górskie PTTK Barania Góra - Przysłop", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745477667/21_Schronisko_Przys%C5%82op_2_c8coje.jpg", 
+        description: "",
+        albums: ["Schroniska Górskie"],
+        date: "21.04.2025"
+    },
+    { 
+        title: "Schronisko Górskie PTTK Barania Góra - Przysłop", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745477642/21_Schronisko_Przys%C5%82op_inxfhz.jpg", 
+        description: "",
+        albums: ["Schroniska Górskie"],
+        date: "21.04.2025"
+    },
+    { 
+        title: "Muzeum PTTK Na Baraniej Górze", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745477614/21_Muzeum_ouo1fg.jpg", 
+        description: "",
+        albums: ["Polska"],
+        date: "21.04.2025"
+    },
+    { 
+        title: "Karolówka (931 m)", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745477585/21_Karol%C3%B3wka_2_mhyrww.jpg", 
+        description: "",
+        albums: ["Beskid Śląski", "Szczyty Górskie"],
+        date: "21.04.2025"
+    },
+    { 
+        title: "Karolówka (931 m)", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745477554/21_Karol%C3%B3wka_pbwkfs.jpg", 
+        description: "",
+        albums: ["Beskid Śląski", "Szczyty Górskie"],
+        date: "21.04.2025"
+    },
+    { 
+        title: "Malinowska Skała (1152 m)", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745477517/20_Malinowska_Ska%C5%82a_2_aocftl.jpg", 
+        description: "",
+        albums: ["Beskid Śląski", "Szczyty Górskie"],
+        date: "20.04.2025"
+    },
+    { 
+        title: "Malinowska Skała (1152 m)", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745477492/20_Malinowska_Ska%C5%82a_3_oplhnz.jpg", 
+        description: "",
+        albums: ["Beskid Śląski", "Szczyty Górskie"],
+        date: "20.04.2025"
+    },
+    { 
+        title: "Malinowska Skała (1152 m)", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745477463/20_Malinowska_Ska%C5%82a_xl8skt.jpg", 
+        description: "",
+        albums: ["Beskid Śląski", "Szczyty Górskie"],
+        date: "20.04.2025"
+    },
+    { 
+        title: "Jaskinia Malinowska", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745477436/20_Jaskinia_ay5khp.jpg", 
+        description: "",
+        albums: ["Polska"],
+        date: "20.04.2025"
+    },
+    { 
+        title: "Malinów (1117 m)", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745477409/20_Malin%C3%B3w_3_goucqf.jpg", 
+        description: "",
+        albums: ["Beskid Śląski", "Szczyty Górskie"],
+        date: "20.04.2025"
+    },
+    { 
+        title: "Malinów (1117 m)", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745477385/20_Malin%C3%B3w_2_j8gwf0.jpg", 
+        description: "",
+        albums: ["Beskid Śląski", "Szczyty Górskie"],
+        date: "20.04.2025"
+    },
+    { 
+        title: "Malinów (1117 m)", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745477356/20_Malin%C3%B3w_hs57ez.jpg", 
+        description: "",
+        albums: ["Beskid Śląski", "Szczyty Górskie"],
+        date: "20.04.2025"
+    },
+    { 
+        title: "Schronisko na Soszowie Wielkim", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745476328/19_Schronisko_Sosz%C3%B3w_xrzfmh.jpg", 
+        description: "",
+        albums: ["Schroniska Górskie"],
+        date: "19.04.2025"
+    },
+    { 
+        title: "Zagroda Lepiarzówka", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745476330/19_Lepiarz%C3%B3wka_llzlkv.jpg", 
+        description: "",
+        albums: ["Schroniska Górskie"],
+        date: "19.04.2025"
+    },
+    { 
+        title: "Soszów Wielki (886 m)", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745476331/19_Sosz%C3%B3w_Wielki_yojjcs.jpg", 
+        description: "",
+        albums: ["Beskid Śląski", "Szczyty Górskie"],
+        date: "19.04.2025"
+    },
+    { 
+        title: "Cieślar (918 m)", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745476299/19_Cie%C5%9Blar_tbwgwc.jpg", 
+        description: "",
+        albums: ["Beskid Śląski", "Szczyty Górskie"],
+        date: "19.04.2025"
+    },
+    { 
+        title: "Stożek Mały (843 m)", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745476266/19_Ma%C5%82y_Sto%C5%BCek_j8sloe.jpg", 
+        description: "",
+        albums: ["Beskid Śląski", "Szczyty Górskie"],
+        date: "19.04.2025"
+    },
+    { 
+        title: "Stożek Wielki (978 m)", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745476218/19_Wielki_Sto%C5%BCek_xyrqb5.jpg", 
+        description: "",
+        albums: ["Beskid Śląski", "Szczyty Górskie"],
+        date: "19.04.2025"
+    },
+    { 
+        title: "Schronisko PTTK Stożek", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745476189/19_Schronisko_Sto%C5%BCek_nw49xg.jpg", 
+        description: "",
+        albums: ["Schroniska Górskie"],
+        date: "19.04.2025"
+    },
+    { 
+        title: "Krkavice (978 m)", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745476164/19_Krkavice_xriyzc.jpg", 
+        description: "",
+        albums: ["Beskid Śląski", "Szczyty Górskie"],
+        date: "19.04.2025"
+    },
+    { 
+        title: "Kiczory (990 m)", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745476139/19_Kiczory_2_wvda1h.jpg", 
+        description: "",
+        albums: ["Beskid Śląski", "Szczyty Górskie"],
+        date: "19.04.2025"
+    },
+    { 
+        title: "Kiczory (990 m)", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745476113/19_Kiczory_wevyvl.jpg", 
+        description: "",
+        albums: ["Beskid Śląski", "Szczyty Górskie"],
+        date: "19.04.2025"
+    },
+    { 
+        title: "Szarcula (803 m)", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745476088/19_Szarcula_3_vonzyy.jpg", 
+        description: "",
+        albums: ["Beskid Śląski", "Szczyty Górskie"],
+        date: "19.04.2025"
+    },
+    { 
+        title: "Beskidek (796 m)", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745476063/19_Beskidek_nc4ou4.jpg", 
+        description: "",
+        albums: ["Beskid Śląski", "Szczyty Górskie"],
+        date: "19.04.2025"
+    },
+    { 
+        title: "Schronisko Na Stecówce", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745476028/19_Stec%C3%B3wka_mjhq11.jpg", 
+        description: "",
+        albums: ["Schroniska Górskie"],
+        date: "19.04.2025"
+    },
+    { 
+        title: "Szarcula (798 m)", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745476004/19_Szarcula_2_npkkyn.jpg", 
+        description: "",
+        albums: ["Beskid Śląski", "Szczyty Górskie"],
+        date: "19.04.2025"
+    },
+    { 
+        title: "Szarcula (803 m)", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745475975/19_Szarcula_omeuzw.jpg", 
+        description: "",
+        albums: ["Beskid Śląski", "Szczyty Górskie", "Wieże Widokowe"],
+        date: "19.04.2025"
+    },
+    { 
+        title: "Kubalonka (830 m)", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745475950/19_Kubalonka_3_eughun.jpg", 
+        description: "",
+        albums: ["Beskid Śląski", "Szczyty Górskie"],
+        date: "19.04.2025"
+    },
+    { 
+        title: "Kubalonka (830 m)", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745475929/19_Kubalonka_2_cqd4em.jpg", 
+        description: "",
+        albums: ["Beskid Śląski", "Szczyty Górskie"],
+        date: "19.04.2025"
+    },
+    { 
+        title: "Kubalonka (830 m)", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745475904/19_Kubalonka_qfundl.jpg", 
+        description: "",
+        albums: ["Beskid Śląski", "Szczyty Górskie", "Wieże Widokowe"],
+        date: "19.04.2025"
+    },
+    { 
+        title: "Malowanie Jajek", 
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745475833/19_Malowanie_oez9k2.jpg", 
+        description: "",
+        albums: [""],
+        date: "19.04.2025"
+    },
+    { 
         title: "Schronisko Telesforówka", 
         img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745436219/18_Schronisko_Trzy_Kopce_xjtctz.jpg", 
         description: "",
@@ -73,7 +318,7 @@ const posts = [
         title: "Rachowiec (954 m)", 
         img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745435949/18_Rachowiec_3_shsbdu.jpg", 
         description: "",
-        albums: ["Wieże Widokowe"],
+        albums: ["Beskid Żywiecki", "Szczyty Górskie", "Wieże Widokowe"],
         date: "18.04.2025"
     },
     { 
