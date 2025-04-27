@@ -1,4 +1,25 @@
 const posts = [
+    {
+        title: "III Nocna Pogoń Za Zającem",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745753050/26_Zajac_2_hhngu3.jpg",
+        description: "",
+        albums: ["Bieganie"],
+        date: "26.04.2025"
+    },
+    {
+        title: "III Nocna Pogoń Za Zającem",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745753051/26_Zajac_rswar2.jpg",
+        description: "",
+        albums: ["Bieganie"],
+        date: "26.04.2025"
+    },
+    {
+        title: "Mistrzostwa Wielkopolski w Biegach Przełajowych",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745753021/24_Zerkow_qvjosr.jpg",
+        description: "Żerków",
+        albums: ["Bieganie"],
+        date: "24.04.2025"
+    },
     { 
         title: "Gościniec Równica - Schronisko", 
         img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745477794/22_Schronisko_R%C3%B3wnica_arysoy.jpg", 
