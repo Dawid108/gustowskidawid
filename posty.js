@@ -1,5 +1,61 @@
 const posts = [
     {
+        title: "Dziewicza Góra (145 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746438568/04_Dziewicza_x2rw6r.jpg",
+        description: "",
+        albums: ["Wieże Widokowe", "Szczyty Górskie"],
+        date: "04.05.2025"
+    },
+    {
+        title: "Wieża Widokowa nad Wartą w Owińskach",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746438540/04_Owinska_uaca6r.jpg",
+        description: "",
+        albums: ["Wieże Widokowe"],
+        date: "04.05.2025"
+    },
+    {
+        title: "Wieża Widokowa Ujście",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746438518/04_Ujscie_njxyfv.jpg",
+        description: "",
+        albums: ["Wieże Widokowe"],
+        date: "04.05.2025"
+    },
+    {
+        title: "Latarnia Morska Gąski",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746438495/03_Gaski_2_hy5fb3.jpg",
+        description: "",
+        albums: ["Wieże Widokowe"],
+        date: "03.05.2025"
+    },
+    {
+        title: "Latarnia Morska Gąski",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746438474/03_Gaski_vy6qz2.jpg",
+        description: "",
+        albums: ["Wieże Widokowe"],
+        date: "03.05.2025"
+    },
+    {
+        title: "Chłopy",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746438450/03_Chlopy_fb5flm.jpg",
+        description: "",
+        albums: ["Polska"],
+        date: "03.05.2025"
+    },
+    {
+        title: "Jezioro Jamno",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746438428/01_Jamno_b0d3ls.jpg",
+        description: "",
+        albums: ["Polska"],
+        date: "01.05.2025"
+    },
+    {
+        title: "Unieście",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746438405/01_Mielno_hjztla.jpg",
+        description: "",
+        albums: ["Polska"],
+        date: "01.05.2025"
+    },
+    {
         title: "III Nocna Pogoń Za Zającem",
         img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1745753050/26_Zajac_2_hhngu3.jpg",
         description: "",
