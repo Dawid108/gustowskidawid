@@ -1552,7 +1552,7 @@ const posts = [
         description: "",
         albums: ["Powiat Krotoszyński"],
         date: "01.11.2024"
-    }
+    },
     {
         title: "VI Krośnicki Bieg Pełną Parą",
         img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746537426/26_Krosnice_2_fkfabv.jpg",
