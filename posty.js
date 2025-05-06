@@ -1001,14 +1001,14 @@ const posts = [
         date: "01.02.2025"
     },
     {
-        title: "Stój Izerski (1107 m)",
+        title: "Stóg Izerski (1107 m)",
         img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744211588/01_St%C3%B3g_Izerski_2_bkgzfu.jpg",
         description: "",
         albums: ["Góry Izerskie", "Szczyty Górskie"],
         date: "01.02.2025"
     },
     {
-        title: "Stój Izerski (1107 m)",
+        title: "Stóg Izerski (1107 m)",
         img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1744211621/01_St%C3%B3g_Izerski_1_mkpvyh.jpg",
         description: "",
         albums: ["Góry Izerskie", "Szczyty Górskie"],
@@ -1552,6 +1552,783 @@ const posts = [
         description: "",
         albums: ["Powiat Krotoszyński"],
         date: "01.11.2024"
+    }
+    {
+        title: "VI Krośnicki Bieg Pełną Parą",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746537426/26_Krosnice_2_fkfabv.jpg",
+        description: "",
+        albums: ["Bieganie"],
+        date: "26.10.2024"
+    },
+    {
+        title: "Mój Pierwszy Maraton",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746537447/20_Maraton_tivpjn.jpg",
+        description: "",
+        albums: ["Bieganie"],
+        date: "20.10.2024"
+    },
+    {
+        title: "Grób Paula Hirta",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746537471/18_Grob_ux77nn.jpg",
+        description: "",
+        albums: ["Polska"],
+        date: "18.10.2024"
+    },
+    {
+        title: "Jizerka",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746537499/17_Jizerka_lobp55.jpg",
+        description: "",
+        albums: ["Czechy"],
+        date: "17.10.2024"
+    },
+    {
+        title: "Bukovec (1005 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746537524/17_Bukovec_arvqtt.jpg",
+        description: "",
+        albums: ["Góry Izerskie", "Szczyty Górskie"],
+        date: "17.10.2024"
+    },
+    {
+        title: "Rzeźba św. Jana Nepomucena przy mostku granicznym Orle – Jizerka",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746537559/17_Most_3_nlxrpn.jpg",
+        description: "",
+        albums: ["Polska"],
+        date: "17.10.2024"
+    },
+    {
+        title: "Most Na Izerze",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746537582/17_Most_2_dkdl3b.jpg",
+        description: "",
+        albums: ["Polska"],
+        date: "17.10.2024"
+    },
+    {
+        title: "Stacja Turystyczna Orle",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746537612/17_Orle_v3o5od.jpg",
+        description: "",
+        albums: ["Schroniska Górskie"],
+        date: "17.10.2024"
+    },
+    {
+        title: "Wysoka Kopa (1126 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746537647/16_Kopa_wknnru.jpg",
+        description: "",
+        albums: ["Góry Izerskie", "Szczyty Górskie"],
+        date: "16.10.2024"
+    },
+    {
+        title: "Izerskie Garby (1084 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746537670/16_Izerskie_c1gxsq.jpg",
+        description: "",
+        albums: ["Góry Izerskie", "Szczyty Górskie"],
+        date: "16.10.2024"
+    },
+    {
+        title: "Chatka Górzystów",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746537705/15_Chatka_pifxcu.jpg",
+        description: "",
+        albums: ["Schroniska Górskie"],
+        date: "15.10.2024"
+    },
+    {
+        title: "Sky Walk Świeradów-Zdroj",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746537801/15_SkyWalk_3_iloo7t.jpg",
+        description: "",
+        albums: ["Wieże Widokowe"],
+        date: "15.10.2024"
+    },
+    {
+        title: "Dom Zdrojowy Świeradów-Zdrój",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746537835/15_Swieradow_uehkqq.jpg",
+        description: "",
+        albums: ["Polska"],
+        date: "15.10.2024"
+    },
+    {
+        title: "Zamek Niemcza",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746537872/14_Niemcza_lhofux.jpg",
+        description: "",
+        albums: ["Zamki"],
+        date: "14.10.2024"
+    },
+    {
+        title: "Ostra Góra (362 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746537903/14_Ostra_2_ucx8jk.jpg",
+        description: "",
+        albums: ["Wieże Widokowe"],
+        date: "14.10.2024"
+    },
+    {
+        title: "Ostra Góra (362 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746537931/14_Ostra_cjmwgf.jpg",
+        description: "",
+        albums: ["Szczyty Górskie"],
+        date: "14.10.2024"
+    },
+    {
+        title: "Kawia Góra (339 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746537963/14_Kawia_3_qbb8dc.jpg",
+        description: "",
+        albums: ["Wieże Widokowe"],
+        date: "14.10.2024"
+    },
+    {
+        title: "Kawia Góra (339 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746537989/14_Kawia_2_efq4pv.jpg",
+        description: "",
+        albums: ["Szczyty Górskie"],
+        date: "14.10.2024"
+    },
+    {
+        title: "Zamek w Ciepłowodach",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746538021/14_Cieplowody_2_txzhxh.jpg",
+        description: "",
+        albums: ["Zamki"],
+        date: "14.10.2024"
+    },
+    {
+        title: "Zamek w Ciepłowodach",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746538050/14_Cieplowody_lqqxeo.jpg",
+        description: "",
+        albums: ["Zamki"],
+        date: "14.10.2024"
+    },
+    {
+        title: "Fort Wysoka Skała",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746538083/14_Wysoka_Skala_u5zkso.jpg",
+        description: "",
+        albums: ["Polska"],
+        date: "14.10.2024"
+    },
+    {
+        title: "Twierdza Srebrna Góra",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746538116/14_Srebrna_2_t0kfwa.jpg",
+        description: "",
+        albums: ["Wieże Widokowe"],
+        date: "14.10.2024"
+    },
+    {
+        title: "Fort Ostróg",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746538142/14_Ostrog_2_fh3xmo.jpg",
+        description: "",
+        albums: ["Polska"],
+        date: "14.10.2024"
+    },
+    {
+        title: "Ostróg (610 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746538170/14_Ostrog_btgehq.jpg",
+        description: "",
+        albums: ["Szczyty Górskie"],
+        date: "14.10.2024"
+    },
+    {
+        title: "Wilkowiec (598 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746538203/14_Wilkowiec_owebw2.jpg",
+        description: "",
+        albums: ["Szczyty Górskie"],
+        date: "14.10.2024"
+    },
+    {
+        title: "Góra Świętej Anny (647 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746538243/13_Anna_2_v3bm74.jpg",
+        description: "",
+        albums: ["Szczyty Górskie", "Wieże Widokowe"],
+        date: "13.10.2024"
+    },
+    {
+        title: "Krępiec (645 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746538277/13_Krepiec_jptyhp.jpg",
+        description: "",
+        albums: ["Szczyty Górskie"],
+        date: "13.10.2024"
+    },
+    {
+        title: "Sokoli Garb (615 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746538312/13_Sokoli_hqi1ju.jpg",
+        description: "",
+        albums: ["Szczyty Górskie"],
+        date: "13.10.2024"
+    },
+    {
+        title: "Bogusza (539 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746538344/13_Bogusza_2_bchqxu.jpg",
+        description: "",
+        albums: ["Szczyty Górskie"],
+        date: "13.10.2024"
+    },
+    {
+        title: "Ruda Góra (516 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746538378/13_Ruda_wpf6p5.jpg",
+        description: "",
+        albums: ["Szczyty Górskie"],
+        date: "13.10.2024"
+    },
+    {
+        title: "Gołębia (810 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746538410/12_Golebia_iiuooi.jpg",
+        description: "",
+        albums: ["Góry Sowie", "Szczyty Górskie"],
+        date: "12.10.2024"
+    },
+    {
+        title: "Kamień Trzech Granic",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746538446/12_Kamien_2_mntw2h.jpg",
+        description: "",
+        albums: ["Polska"],
+        date: "12.10.2024"
+    },
+    {
+        title: "Malinowa (835 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746538476/12_Malinowa_rxuuw5.jpg",
+        description: "",
+        albums: ["Góry Sowie", "Szczyty Górskie"],
+        date: "12.10.2024"
+    },
+    {
+        title: "Szeroka (826 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746538502/12_Szeroka_hohemv.jpg",
+        description: "",
+        albums: ["Góry Sowie", "Szczyty Górskie"],
+        date: "12.10.2024"
+    },
+    {
+        title: "Czeszka (742 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746538536/12_Czeszka_dcqrun.jpg",
+        description: "",
+        albums: ["Góry Sowie", "Szczyty Górskie"],
+        date: "12.10.2024"
+    },
+    {
+        title: "Wieża Widokowa Kościoła w Bielawie",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746538566/12_Bielawa_qndr7g.jpg",
+        description: "",
+        albums: ["Wieże Widokowe"],
+        date: "12.10.2024"
+    },
+    {
+        title: "Góra Parkowa (455 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746538600/12_Parkowa_bs9gxn.jpg",
+        description: "",
+        albums: ["Szczyty Górskie", "Wieże Widokowe"],
+        date: "12.10.2024"
+    },
+    {
+        title: "Platforma Widokowa Myśliszów",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746538637/12_Wrona_2_konai1.jpg",
+        description: "",
+        albums: ["Wieże Widokowe"],
+        date: "12.10.2024"
+    },
+    {
+        title: "Wrona (458 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746538671/12_Wrona_myriy1.jpg",
+        description: "",
+        albums: ["Szczyty Górskie"],
+        date: "12.10.2024"
+    },
+    {
+        title: "Ruiny Zamku w Owiesnie",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746538702/12_Owiesno_kyujvi.jpg",
+        description: "",
+        albums: ["Zamki"],
+        date: "12.10.2024"
+    },
+    {
+        title: "Młyn Hilberta",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746538748/12_Mlyn_nljgsf.jpg",
+        description: "",
+        albums: ["Polska"],
+        date: "12.10.2024"
+    },
+    {
+        title: "Ratusz Dzierżoniów",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746538753/12_Dzier%C5%BConi%C3%B3w_f8tnf6.jpg",
+        description: "",
+        albums: ["Wieże Widokowe"],
+        date: "12.10.2024"
+    },
+    {
+        title: "Bieg Maćka",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746538801/06_Maciek_2_rla9pl.jpg",
+        description: "",
+        albums: ["Bieganie"],
+        date: "06.10.2024"
+    },
+    {
+        title: "Skopiec (724 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746538848/01_Skopiec_wfrudc.jpg",
+        description: "",
+        albums: ["Góry Kaczawskie", "Szczyty Górskie"],
+        date: "01.10.2024"
+    },
+    {
+        title: "Baraniec (720 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746538855/01_Baraniec_mzco3y.jpg",
+        description: "",
+        albums: ["Góry Kaczawskie", "Szczyty Górskie"],
+        date: "01.10.2024"
+    },
+    {
+        title: "Folwarczna (722 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746538842/01_Folwarczna_aymrpb.jpg",
+        description: "",
+        albums: ["Góry Kaczawskie"],
+        date: "01.10.2024"
+    },
+    {
+        title: "Złoty Widok w Szklarskiej Porębie",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746539563/30_Widok_kx7izp.jpg",
+        description: "",
+        albums: ["Polska"],
+        date: "30.09.2024"
+    },
+    {
+        title: "Chybotek",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746539591/30_Chybotek_xnkcdy.jpg",
+        description: "",
+        albums: ["Polska"],
+        date: "30.09.2024"
+    },
+    {
+        title: "Zbójeckie Skały",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746538980/30_Zbojeckie_5_hnwvis.jpg",
+        description: "",
+        albums: ["Wieże Widokowe"],
+        date: "30.09.2024"
+    },
+    {
+        title: "Zakręt Śmierci",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746539011/30_Zakret_a8uy6d.jpg",
+        description: "",
+        albums: ["Polska"],
+        date: "30.09.2024"
+    },
+    {
+        title: "Czarna Góra (964 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746539055/30_Czarna_3_t6p2qb.jpg",
+        description: "",
+        albums: ["Góry Izerskie", "Szczyty Górskie"],
+        date: "30.09.2024"
+    },
+    {
+        title: "Schronisko Wysoki Kamień",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746539088/30_Schronisko_xpie07.jpg",
+        description: "",
+        albums: ["Schroniska Górskie"],
+        date: "30.09.2024"
+    },
+    {
+        title: "Wysoki Kamień (1058 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746539118/30_Wysoki_Kamien_3_nktr5o.jpg",
+        description: "",
+        albums: ["Góry Izerskie", "Szczyty Górskie", "Wieże Widokowe"],
+        date: "30.09.2024"
+    },
+    {
+        title: "Duży Wysoki Kamień (1050 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746539177/30_Duzy_Wysoki_Kamien_wxbfl2.jpg",
+        description: "",
+        albums: ["Góry Izerskie", "Szczyty Górskie"],
+        date: "30.09.2024"
+    },
+    {
+        title: "Zawalidroga (1025 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746539212/30_Zawalidroga_2_zgbdg4.jpg",
+        description: "",
+        albums: ["Góry Izerskie", "Szczyty Górskie"],
+        date: "30.09.2024"
+    },
+    {
+        title: "Zwalisko (1047 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746539248/30_Zwalisko_4_nkurvi.jpg",
+        description: "",
+        albums: ["Góry Izerskie", "Szczyty Górskie"],
+        date: "30.09.2024"
+    },
+    {
+        title: "Izerskie Garby (1084 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746539281/30_Izerskie_Garby_2_cjthiv.jpg",
+        description: "",
+        albums: ["Góry Izerskie", "Szczyty Górskie"],
+        date: "30.09.2024"
+    },
+    {
+        title: "Sine Skałki (1122 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746539329/30_Sine_Skalki_kipoz2.jpg",
+        description: "",
+        albums: ["Góry Izerskie", "Szczyty Górskie"],
+        date: "30.09.2024"
+    },
+    {
+        title: "Przednia Kopa (1114 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746539338/30_Przednia_Kopa_hwedqc.jpg",
+        description: "",
+        albums: ["Góry Izerskie", "Szczyty Górskie"],
+        date: "30.09.2024"
+    },
+    {
+        title: "Wysoka Kopa (1126 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746539374/30_Wysoka_Kopa_x8a0oj.jpg",
+        description: "",
+        albums: ["Góry Izerskie", "Szczyty Górskie"],
+        date: "30.09.2024"
+    },
+    {
+        title: "2 Ćwierćmaraton Wiejski w Rozdrażewie",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746539630/22_Rozdrazew_d3uvrm.jpg",
+        description: "",
+        albums: ["Bieganie"],
+        date: "22.09.2024"
+    },
+    {
+        title: "Kościół Nawiedzenia NMP w Mściwojowie",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746539669/24_Msciwojow_mw1jzh.jpg",
+        description: "",
+        albums: ["Polska"],
+        date: "24.08.2024"
+    },
+    {
+        title: "Dzicza Góra (881 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746539709/24_Dzicza_l0amam.jpg",
+        description: "",
+        albums: ["Rudawy Janowickie", "Szczyty Górskie"],
+        date: "24.08.2024"
+    },
+    {
+        title: "Wołek (878 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746539717/24_Wolek_x5impw.jpg",
+        description: "",
+        albums: ["Rudawy Janowickie", "Szczyty Górskie"],
+        date: "24.08.2024"
+    },
+    {
+        title: "Vodopady Javoriho Potoka",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746539836/23_Javoriho_klxgrn.jpg",
+        description: "",
+        albums: ["Czechy"],
+        date: "23.08.2024"
+    },
+    {
+        title: "Hubertova Vyhlidka",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746539853/23_Hubertova_wscqxq.jpg",
+        description: "",
+        albums: ["Czechy"],
+        date: "23.08.2024"
+    },
+    {
+        title: "Vyhlidkova Vez Cernohorska Raselin",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746539845/23_Raselin_vyy6az.jpg",
+        description: "",
+        albums: ["Wieże Widokowe"],
+        date: "23.08.2024"
+    },
+    {
+        title: "Cerna Hora (1300 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746540039/23_Cerna_2_rmithl.jpg",
+        description: "",
+        albums: ["Karkonosze", "Szczyty Górskie", "Wieże Widokowe"],
+        date: "23.08.2024"
+    },
+    {
+        title: "Cerna Hora (1300 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746540047/23_Cerna_u6xedx.jpg",
+        description: "",
+        albums: ["Karkonosze", "Szczyty Górskie"],
+        date: "23.08.2024"
+    },
+    {
+        title: "Śnieżka (1603 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746540101/22_Sniezka_4_kct1nh.jpg",
+        description: "",
+        albums: ["Karkonosze", "Szczyty Górskie", "Wieże Widokowe"],
+        date: "22.08.2024"
+    },
+    {
+        title: "Śnieżka (1603 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746540165/22_Sniezka_2_otgolb.jpg",
+        description: "",
+        albums: ["Karkonosze", "Szczyty Górskie"],
+        date: "22.08.2024"
+    },
+    {
+        title: "Dom Śląski",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746540206/22_Dom_zohlxc.jpg",
+        description: "",
+        albums: ["Schroniska Górskie"],
+        date: "22.08.2024"
+    },
+    {
+        title: "Obri Sedlo",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746540316/22_Obri_2_ykzvwi.jpg",
+        description: "",
+        albums: ["Czechy"],
+        date: "22.08.2024"
+    },
+    {
+        title: "Obri Dul",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746540328/22_Obri_ojjpva.jpg",
+        description: "",
+        albums: ["Czechy"],
+        date: "22.08.2024"
+    },
+    {
+        title: "Modry Dul",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746540374/22_Modry_wuh4di.jpg",
+        description: "",
+        albums: ["Czechy"],
+        date: "22.08.2024"
+    },
+    {
+        title: "Zeleny Dul",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746540415/22_Zeleny_toov1v.jpg",
+        description: "",
+        albums: ["Czechy"],
+        date: "22.08.2024"
+    },
+    {
+        title: "Lisci Vodopad",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746540511/22_Lisci_2_nwufql.jpg",
+        description: "",
+        albums: ["Czechy"],
+        date: "22.08.2024"
+    },
+    {
+        title: "Rozhledna Hnedy Vrch",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746540550/22_Hnedy_g9qwid.jpg",
+        description: "",
+        albums: ["Wieże Widokowe"],
+        date: "22.08.2024"
+    },
+    {
+        title: "Vlci Jama",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746540586/21_Mlyn_kgwk0m.jpg",
+        description: "",
+        albums: ["Czechy"],
+        date: "21.08.2024"
+    },
+    {
+        title: "Skała Fajka",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746540662/21_Fajka_vzghs6.jpg",
+        description: "",
+        albums: ["Polska"],
+        date: "21.08.2024"
+    },
+    {
+        title: "Pieklisko",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746540729/21_Pieklisko_nayowy.jpg",
+        description: "",
+        albums: ["Polska"],
+        date: "21.08.2024"
+    },
+    {
+        title: "Lwia Góra (718 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746540772/21_Lwia_2_jcyqsq.jpg",
+        description: "",
+        albums: ["Rudawy Janowickie", "Szczyty Górskie"],
+        date: "21.08.2024"
+    },
+    {
+        title: "Skała Piec",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746540835/21_Piec_3_usrd3m.jpg",
+        description: "",
+        albums: ["Polska"],
+        date: "21.08.2024"
+    },
+    {
+        title: "Skalny Most",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746540909/21_Most_ilfjvk.jpg",
+        description: "",
+        albums: ["Polska"],
+        date: "21.08.2024"
+    },
+    {
+        title: "Grupa Skalna - Skalne Bramy",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746540946/21_Bramy_ur0epq.jpg",
+        description: "",
+        albums: ["Polska"],
+        date: "21.08.2024"
+    },
+    {
+        title: "Zamek Bolczów",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746541050/21_Bolczow_gvcwll.jpg",
+        description: "",
+        albums: ["Zamki"],
+        date: "21.08.2024"
+    },
+    {
+        title: "Vaduz",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746541112/09_Vaduz_2_yamiqa.jpg",
+        description: "Stadion",
+        albums: ["Liechtenstein", "Stadiony"],
+        date: "09.08.2024"
+    },
+    {
+        title: "San Siro",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746541124/08_San_Siro_2_sptoen.jpg",
+        description: "",
+        albums: ["Włochy", "Stadiony"],
+        date: "08.08.2024"
+    },
+    {
+        title: "Castello Sforzesco",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746541152/08_Castello_mvoooc.jpg",
+        description: "",
+        albums: ["Włochy"],
+        date: "08.08.2024"
+    },
+    {
+        title: "Aiguille du Midi (3842 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746541180/07_Aiguille_2_ui5jfb.jpg",
+        description: "",
+        albums: ["Francja", "Szczyty Górskie"],
+        date: "07.08.2024"
+    },
+    {
+        title: "Young Boys",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746541193/06_Young_Boys_2_mjv4a9.jpg",
+        description: "Stadion Wankdorf",
+        albums: ["Szwajcaria", "Stadiony"],
+        date: "06.08.2024"
+    },
+    {
+        title: "Lungerersee",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746541254/05_Lungerersee_2_lifdnj.jpg",
+        description: "",
+        albums: ["Szwajcaria"],
+        date: "05.08.2024"
+    },
+    {
+        title: "Oberhaupt (2106 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746541289/05_Oberhaupt_o4t4we.jpg",
+        description: "",
+        albums: ["Szczyty Górskie", "Szwajcaria"],
+        date: "05.08.2024"
+    },
+    {
+        title: "Esel (2118 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746541279/05_Esel_wjkuaj.jpg",
+        description: "",
+        albums: ["Szczyty Górskie", "Szwajcaria"],
+        date: "05.08.2024"
+    },
+    {
+        title: "Pilatus (2132 m)",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746541299/05_Pilatus_foqkrt.jpg",
+        description: "",
+        albums: ["Szczyty Górskie", "Szwajcaria"],
+        date: "05.08.2024"
+    },
+    {
+        title: "Zurych",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746541425/04_Zurych_2_khsdct.jpg",
+        description: "",
+        albums: ["Szwajcaria", "Szwajcaria"],
+        date: "04.08.2024"
+    },
+    {
+        title: "Muzeum Fifa",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746541436/04_Fifa_14_asgzpk.jpg",
+        description: "",
+        albums: ["Szwajcaria"],
+        date: "04.08.2024"
+    },
+    {
+        title: "Muzeum Fifa",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746541486/04_Fifa_10_prm1bf.jpg",
+        description: "",
+        albums: ["Szwajcaria"],
+        date: "04.08.2024"
+    },
+    {
+        title: "Muzeum Fifa",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746541518/04_Fifa_09_sfzdw5.jpg",
+        description: "",
+        albums: ["Szwajcaria"],
+        date: "04.08.2024"
+    },
+    {
+        title: "Muzeum Fifa",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746541554/04_Fifa_04_zae9em.jpg",
+        description: "",
+        albums: ["Szwajcaria"],
+        date: "04.08.2024"
+    },
+    {
+        title: "Bazylea",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746541590/04_Bazylea_t2dgma.jpg",
+        description: "",
+        albums: ["Szwajcaria"],
+        date: "04.08.2024"
+    },
+    {
+        title: "Miluza",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746541602/04_Miluza_2_n4cdn0.jpg",
+        description: "",
+        albums: ["Francja"],
+        date: "04.08.2024"
+    },
+    {
+        title: "Colmar",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746541615/03_Colmar_2_q7oyf1.jpg",
+        description: "",
+        albums: ["Francja"],
+        date: "03.08.2024"
+    },
+    {
+        title: "Zamek Haut-Koenigsbourg",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746541722/03_Zamek_4_gk3bqx.jpg",
+        description: "",
+        albums: ["Francja"],
+        date: "03.08.2024"
+    },
+    {
+        title: "Rheinfall",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746541767/02_Rheinfall_2_jgtgry.jpg",
+        description: "",
+        albums: ["Szwajcaria"],
+        date: "02.08.2024"
+    },
+    {
+        title: "Stein am Rhein",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746541819/02_Stein_Rhein_gaz17i.jpg",
+        description: "",
+        albums: ["Szwajcaria"],
+        date: "02.08.2024"
+    },
+    {
+        title: "Kościół Rzymskokatolicki Świętego Jana Chrzciciela w Rozdrażewie",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746541866/29_Rozdrazew_2_ausy8b.jpg",
+        description: "",
+        albums: ["Powiat Krotoszyński"],
+        date: "29.07.2024"
+    },
+    {
+        title: "Rynek w Koźminie Wielkopolskim",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746542070/29_Kozmin_3_kneubx.jpg",
+        description: "",
+        albums: ["Powiat Krotoszyński"],
+        date: "29.07.2024"
+    },
+    {
+        title: "Zamek w Koźminie Wielkopolskim",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746542139/29_Zamek_lit3xi.jpg",
+        description: "",
+        albums: ["Powiat Krotoszyński", "Zamki"],
+        date: "29.07.2024"
+    },
+    {
+        title: "Kościół Świętego Wawrzyńca",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746542230/29_Kozmin_2_uitunn.jpg",
+        description: "",
+        albums: ["Powiat Krotoszyński"],
+        date: "29.07.2024"
+    },
+    {
+        title: "Kościół Cmentarny Trójcy Świętej",
+        img: "https://res.cloudinary.com/diljpkw9f/image/upload/v1746542376/29_Kozmin_r9tg9f.jpg",
+        description: "",
+        albums: ["Powiat Krotoszyński"],
+        date: "29.07.2024"
     }
 ];
 
