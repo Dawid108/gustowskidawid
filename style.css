@@ -146,6 +146,7 @@ body.dark-mode td, body.dark-mode th {
     height: 140px;
     object-fit: contain;
     margin-bottom: 5px;
+    border-radius: 10px;
 }
 .app-icon span {
     font-size: 14px; /*rozmiar czcionki*/
