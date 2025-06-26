@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>dawi_108</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <a href="index.html" class="nav-link active">Menu</a>
+        <a href="biegi.html" class="nav-link">Biegi</a>
+        <a href="szachy.html" class="nav-link">Szachy</a>
+        <a href="szczyty.html" class="nav-link">Szczyty</a>
+    </nav>
+    <br><br><br><br>
+    <div class="container">
+        <div class="buttons">
+            <div class="button" onclick="showTable('rekordyziemi')">Moje Rekordy Ziemi</div>
+        </div>
+        <div id="rekordyziemi" class="table-container">
+            <h1>Moje Rekordy Ziemi</h1>
+            <div class="table-wrapper">
+                <table border="1" class="nienumerowana">
+                    <tr>
+                        <th>Nazwa Rekordu</th>
+                        <th>Nazwa Miejsca</th>
+                        <th>Ile</th>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><a onclick="showTable('najwiekszejeziora')">Największe Jeziora</a></td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                </table>
+            </div>
+        </div>
+        <div id="najwiekszejeziora" class="table-container">
+            <h1>Największe Jeziora</h1>
+            <div class="table-wrapper">
+                <table border="1">
+                    <tr><th>Lp.</th><th>Nazwa</th><th>Powierzchnia</th><th>Data</th></tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script>
+        function showTable(id){
+            document.querySelectorAll('.table-container').forEach(table => {
+                table.style.display = 'none';
+            });
+            document.getElementById(id).style.display = 'block';
+        }
+
+        function numerateTables() {
+            // Wybieramy wszystkie tabele, które NIE mają klasy 'nienumerowana'
+            document.querySelectorAll("table:not(.nienumerowana)").forEach(table => {
+                let rows = table.querySelectorAll("tr:not(:first-child)");
+                rows.forEach((row, index) => {
+                    let firstCell = row.querySelector("td:first-child");
+                    if (firstCell) {
+                        firstCell.textContent = index + 1;
+                    }
+                });
+            });
+        }
+
+        window.onload = function() {
+            showTable('rekordyziemi'); 
+            numerateTables();
+        };
+
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            document.body.classList.add('dark-mode');
+        }
+
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', function() {
+                document.querySelectorAll('.nav-link').forEach(el => el.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+    </script>
+</body>
+</html>
