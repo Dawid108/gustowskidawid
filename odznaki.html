@@ -8,19 +8,81 @@
 </head>
 <body>
     <nav class="navbar">
-        <a href="posty.html" class="nav-link">Posty</a>
-        <a href="ksiazeczki.html" class="nav-link">Książeczki</a>
-        <a href="odznaki.html" class="nav-link active">Odznaki</a>
-        <a href="inne.html" class="nav-link">Inne</a>
+        <a href="index.html" class="nav-link active">Menu</a>
+        <a href="biegi.html" class="nav-link">Biegi</a>
+        <a href="szachy.html" class="nav-link">Szachy</a>
+        <a href="szczyty.html" class="nav-link">Szczyty</a>
     </nav>
     <br><br><br><br>
     <div class="container">
-        <h1>Odznaki</h1>
-        <div class="table-wrapper">
-            <table border="1">
-            </table> 
+        <div class="buttons">
+            <div class="button" onclick="showTable('odznaki')">Książeczki</div>
+            <div class="button" onclick="showTable('kzkgrp')">KZKG RP</div>
         </div>
+        <div id="odznaki" class="table-container">
+            <h1>Inne Odznaki</h1>
+            <div class="table-wrapper">
+                <table border="1">
+                    <tr>
+                        <th>Lp.</th>
+                        <th>Nazwa</th>
+                        <th>Postęp</th>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td><a onclick="showTable('krotoszynskaodznakakrajoznawcza')">Krotoszyńska Odznaka Krajoznawcza</a></td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                </table>
+            </div>
+        </div>
+        <div id="krotoszynskaodznakakrajoznawcza" class="table-container">
+            <h1>Krotoszyńska Odznaka Krajoznawcza</h1>
+            <div class="table-wrapper">
+                <table border="1">
+                    <tr><th>Lp.</th><th>Obiekt</th><th>Data</th></tr>
+                </table>
+            </div>
+        </div>
+        
     </div>
-    <script src="script.js"></script>
+    <script>
+        function showTable(id){
+            document.querySelectorAll('.table-container').forEach(table => {
+                table.style.display = 'none';
+            });
+            document.getElementById(id).style.display = 'block';
+        }
+
+        function numerateTables() {
+            // Wybieramy wszystkie tabele, które NIE mają klasy 'nienumerowana'
+            document.querySelectorAll("table:not(.nienumerowana)").forEach(table => {
+                let rows = table.querySelectorAll("tr:not(:first-child)");
+                rows.forEach((row, index) => {
+                    let firstCell = row.querySelector("td:first-child");
+                    if (firstCell) {
+                        firstCell.textContent = index + 1;
+                    }
+                });
+            });
+        }
+
+        window.onload = function() {
+            showTable('odznaki'); 
+            numerateTables();
+        };
+
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            document.body.classList.add('dark-mode');
+        }
+
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', function() {
+                document.querySelectorAll('.nav-link').forEach(el => el.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+    </script>
 </body>
 </html>
