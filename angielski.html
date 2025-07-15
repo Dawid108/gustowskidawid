@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nauka Angielskiego</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f0f4f8;
+      margin: 0;
+      padding: 0;
+    }
+
+    .header {
+      text-align: center;
+      background: #007BFF;
+      color: white;
+      padding: 15px;
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    .lang-buttons {
+      display: flex;
+      justify-content: center;
+      margin: 10px 0;
+    }
+
+    .lang-buttons button {
+      padding: 10px 20px;
+      margin: 0 5px;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      background-color: #e0e0e0;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+
+    .lang-buttons button.active {
+      background-color: #007BFF;
+      color: white;
+    }
+
+    .lesson {
+      background: white;
+      margin: 15px;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    .lesson h2, .lesson h3 {
+      margin: 5px 0;
+      color: #333;
+    }
+
+    .word {
+      font-size: 18px;
+      margin: 10px 0;
+      cursor: pointer;
+      color: #007BFF;
+    }
+
+    .word .pronunciation {
+      color: #666;
+      font-size: 15px;
+    }
+
+    .translation {
+      margin-top: 5px;
+      font-size: 16px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">Nauka Angielskiego</div>
+
+  <div class="lang-buttons">
+    <button id="btn-en" class="active">Angielski</button>
+    <button id="btn-pl">Polski</button>
+  </div>
+
+  <div id="lesson-container"></div>
+
+  <script>
+    const lessons = [
+      {
+        number: 1,
+        title_en: "Basic Phrases",
+        title_pl: "Podstawowe Zwroty",
+        words: [
+          { en: "Hello", pronunciation: "heloł", pl: "Cześć" },
+          { en: "Goodbye", pronunciation: "gudbaj", pl: "Do widzenia" },
+          { en: "Thank you", pronunciation: "fenk ju", pl: "Dziękuję" },
+          { en: "Please", pronunciation: "pliz", pl: "Proszę" },
+          { en: "Yes", pronunciation: "jes", pl: "Tak" },
+          { en: "No", pronunciation: "noł", pl: "Nie" }
+        ]
+      }
+    ];
+
+    let currentLang = "en";
+
+    function renderLessons() {
+      const container = document.getElementById("lesson-container");
+      container.innerHTML = "";
+
+      lessons.forEach(lesson => {
+        const div = document.createElement("div");
+        div.className = "lesson";
+
+        const title = document.createElement("h2");
+        title.textContent = currentLang === "en" ? `Lesson ${lesson.number}` : `Lekcja ${lesson.number}`;
+        div.appendChild(title);
+
+        const subtitle = document.createElement("h3");
+        subtitle.textContent = currentLang === "en" ? lesson.title_en : lesson.title_pl;
+        div.appendChild(subtitle);
+
+        lesson.words.forEach(word => {
+          const wordDiv = document.createElement("div");
+          wordDiv.className = "word";
+
+          if (currentLang === "en") {
+            wordDiv.innerHTML = `${word.en} <span class="pronunciation">(${word.pronunciation})</span>`;
+          } else {
+            wordDiv.textContent = word.pl;
+          }
+
+          wordDiv.addEventListener("click", () => {
+            if (wordDiv.querySelector(".translation")) return;
+
+            const trans = document.createElement("div");
+            trans.className = "translation";
+            if (currentLang === "en") {
+              trans.textContent = word.pl;
+            } else {
+              trans.textContent = `${word.en} (${word.pronunciation})`;
+            }
+            wordDiv.appendChild(trans);
+          });
+
+          div.appendChild(wordDiv);
+        });
+
+        container.appendChild(div);
+      });
+    }
+
+    document.getElementById("btn-en").addEventListener("click", () => {
+      currentLang = "en";
+      document.getElementById("btn-en").classList.add("active");
+      document.getElementById("btn-pl").classList.remove("active");
+      renderLessons();
+    });
+
+    document.getElementById("btn-pl").addEventListener("click", () => {
+      currentLang = "pl";
+      document.getElementById("btn-pl").classList.add("active");
+      document.getElementById("btn-en").classList.remove("active");
+      renderLessons();
+    });
+
+    // Start domyślnie z angielskim
+    renderLessons();
+  </script>
+
+</body>
+</html>
