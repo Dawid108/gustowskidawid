@@ -71,10 +71,10 @@ a:hover{
     position: sticky;
     top: 0;
     z-index: 1000;
-    width: fit-content; /* dopasuj szerokość do zawartości */
-    margin: 0 auto; /* wyśrodkuj */
     border-radius: 10px;
-    max-width: 90%; /* zabezpieczenie przed zbyt szerokim menu */
+    max-width: 90%;
+    margin: 0 auto;
+    width: auto; /* zamiast fit-content — pozwoli normalnie rozciągać na mobile */
 }
 .nav-link {
     text-decoration: none;
@@ -174,14 +174,15 @@ body.dark-mode .app-icon:hover {
     .navbar {
         width: 100%;
         margin: 0;
-        padding: 0; /* usuń ewentualny padding w nav */
+        padding: 0;
         box-sizing: border-box;
         border-radius: 0;
         flex-wrap: wrap;
         justify-content: space-around;
+        max-width: 100%; /* usuwa odstęp po prawej */
     }
     .nav-link {
         flex: 1 1 auto;
         text-align: center;
     }
-}
+} /* ← poprawnie zamykamy media query */
