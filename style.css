@@ -74,7 +74,6 @@ a:hover{
     width: fit-content; /* dopasuj szerokość do zawartości */
     margin: 0 auto; /* wyśrodkuj */
     border-radius: 10px;
-    max-width: 90%; /* zabezpieczenie przed zbyt szerokim menu */
 }
 .nav-link {
     text-decoration: none;
