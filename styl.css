@@ -8,10 +8,11 @@ body{
     width: 95%;
     max-width: 800px;
     margin: auto;
+    padding-bottom: 20px;
 }
 .buttons {
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 kolumny */
+    grid-template-columns: repeat(2, 1fr); /* zawsze 2 kolumny */
     gap: 15px;
 }
 .button {
@@ -89,7 +90,7 @@ a:hover{
     border-bottom: 3px solid #1877F2;
 }
 .content {
-    padding-top: 60px; /* odstęp, żeby nav nie zasłaniał */
+    padding-top: 30px; /* odstęp, żeby nav nie zasłaniał */
 }
 img{
     width: 300px;    
@@ -159,9 +160,4 @@ body.dark-mode .app-icon {
 }
 body.dark-mode .app-icon:hover {
     background-color: #3a3a3a;
-}
-@media (max-width: 500px) {
-    .buttons {
-        grid-template-columns: 1fr; /* 1 kolumna na bardzo małych ekranach */
-    }
 }
