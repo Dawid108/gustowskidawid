@@ -74,6 +74,7 @@ a:hover{
     width: fit-content; /* dopasuj szerokość do zawartości */
     margin: 0 auto; /* wyśrodkuj */
     border-radius: 10px;
+    max-width: 90%; /* zabezpieczenie przed zbyt szerokim menu */
 }
 .nav-link {
     text-decoration: none;
@@ -166,15 +167,21 @@ body.dark-mode .app-icon:hover {
     background-color: #3a3a3a;
 }
 @media (max-width: 500px) {
+    body {
+        margin: 0;
+        padding: 0;
+    }
     .navbar {
         width: 100%;
-        margin: 0; /* usunięcie marginesów po bokach */
+        margin: 0;
+        padding: 0; /* usuń ewentualny padding w nav */
+        box-sizing: border-box;
         border-radius: 0;
-        flex-wrap: wrap; /* jeśli nie zmieści się w jednym wierszu, przechodzi niżej */
-        justify-content: space-around; /* rozłóż równomiernie */
+        flex-wrap: wrap;
+        justify-content: space-around;
     }
     .nav-link {
-        flex: 1 1 auto; /* linki dopasują się do dostępnej szerokości */
+        flex: 1 1 auto;
         text-align: center;
     }
 }
