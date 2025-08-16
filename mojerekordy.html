@@ -4,35 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>dawi_108</title>
-    <link rel="icon" href="https://res.cloudinary.com/diljpkw9f/image/upload/v1750246418/dawi_108_tgzpht.jpg" type="image/jpeg">
+    <link rel="icon" href="dawi108.png" type="image/png">
+    <link rel="manifest" href="manifest.json">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav class="navbar">
-        <a href="https://dawid108.github.io/gustowskidawid/index.html" class="nav-link active">Menu</a>
-        <a href="https://dawid108.github.io/gustowskidawid/biegi.html" class="nav-link">Biegi</a>
-        <a href="https://dawid108.github.io/gustowskidawid/szachy.html" class="nav-link">Szachy</a>
-        <a href="https://dawid108.github.io/gustowskidawid/szczyty.html" class="nav-link">Szczyty</a>
+        <a href="index.html" class="nav-link">Menu</a>
+        <a href="biegi.html" class="nav-link">Biegi</a>
+        <a href="szachy.html" class="nav-link">Szachy</a>
+        <a href="szczyty.html" class="nav-link">Szczyty</a>
     </nav>
-    <br><br><br><br>
-    <div class="container">
-        <h1>Moje Rekordy</h1>
-        <div class="table-wrapper">
-            <table border="1" class="nienumerowana">
-                <tr>
-                    <th>Nazwa Rekordu</th>
-                    <th>Trasa</th>
-                    <th>Ile</th>
-                </tr>
-                <tr>
-                    <td></td>
-                    <td></td>
-                    <td>-</td>
-                </tr>
-                <tr>
-            </table>
+    <main class="content">
+        <div class="container">
+            <h1>Moje Rekordy</h1>
         </div>
-    </div>
-    <script src="script.js"></script>
+    </main>
+    <script>
+        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            document.body.classList.add('dark-mode');
+        }
+    </script>
 </body>
 </html>
