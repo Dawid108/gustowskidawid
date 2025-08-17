@@ -1,29 +1,269 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>dawi_108</title>
-    <link rel="icon" href="dawi108.png" type="image/png">
-    <link rel="manifest" href="manifest.json">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>dawi_108</title>
+  <link rel="icon" href="dawi108.png" type="image/png">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav class="navbar">
-        <a href="index.html" class="nav-link">Menu</a>
-        <a href="biegi.html" class="nav-link">Biegi</a>
-        <a href="szachy.html" class="nav-link">Szachy</a>
-        <a href="szczyty.html" class="nav-link">Szczyty</a>
-    </nav>
-    <main class="content">
-        <div class="container">
-            <h1>Moje Rekordy</h1>
-        </div>
-    </main>
-    <script>
-        if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-            document.body.classList.add('dark-mode');
-        }
-    </script>
+  <nav class="navbar">
+    <a href="index.html" class="nav-link active">Menu</a>
+    <a href="biegi.html" class="nav-link">Biegi</a>
+    <a href="szachy.html" class="nav-link">Szachy</a>
+    <a href="szczyty.html" class="nav-link">Szczyty</a>
+  </nav>
+
+  <main class="content">
+    <div class="container">
+      <h1>Moje Rekordy</h1>
+
+      <!-- PRZYCISKI -->
+      <div class="buttons">
+        <div class="button" onclick="showSection('bieganie')">Bieganie</div>
+        <div class="button" onclick="showSection('rower')">Rower</div>
+        <div class="button" onclick="showSection('wedrowki')">Wędrówki Górskie</div>
+        <div class="button" onclick="showSection('hulajnoga')">Hulajnoga</div>
+      </div>
+
+      <!-- SEKCJE -->
+      <div id="records">
+
+        <!-- Bieganie -->
+        <section id="bieganie" class="record-section">
+          <h1>Najdłuższy bieg</h1>
+
+          <div class="record-card">
+            <h2>1. Mój Pierwszy Maraton</h2>
+            <h5>20.10.2024</h5>
+            <div class="record-data">
+                <div><strong>Dystans: </strong>42,21 km</div>
+                <div><strong>Czas: </strong>4:10:09</div>
+                <div><strong>Podejście: </strong>0 m</div>
+                <div><strong>Tempo: </strong>5:56 min/km</div>
+            </div>
+            <div class="map-container">
+              <img src="https://res.cloudinary.com/diljpkw9f/image/upload/v1755430293/maraton_xvxicn.png">
+            </div>
+          </div>
+
+          <div class="record-card">
+            <h2>2. Mielno - Gąski</h2>
+            <div class="record-data">
+                <div><strong>Dystans: </strong>33,56 km</div>
+                <div><strong>Czas: </strong>2:54:21</div>
+                <div><strong>Podejście: </strong>54 m</div>
+                <div><strong>Tempo: </strong>5:12 min/km</div>
+            </div>
+            <div class="map-container">
+              <img src="https://res.cloudinary.com/diljpkw9f/image/upload/v1755430768/gaski_jmnxbn.png">
+            </div>
+          </div>
+
+          <div class="record-card">
+            <h2>3. Świnoujście - Karsibór</h2>
+            <div class="record-data">
+                <div><strong>Dystans: </strong>27,24 km</div>
+                <div><strong>Czas: </strong>3:23:28</div>
+                <div><strong>Podejście: </strong>67 m</div>
+                <div><strong>Tempo: </strong>7:28 min/km</div>
+            </div>
+            <div class="map-container">
+              <img src="https://res.cloudinary.com/diljpkw9f/image/upload/v1755431087/karsibor_rro9kn.png">
+            </div>
+          </div>
+          
+          <br><h1>Największe przewyższenie w biegu</h1>
+
+          <div class="record-card">
+            <h2>1. Krzesanica (2122 m)</h2>
+            <div class="record-data">
+                <div><strong>Dystans: </strong>27,17 km</div>
+                <div><strong>Czas: </strong>6:59:51</div>
+                <div><strong>Podejście: </strong>2251 m</div>
+                <div><strong>Tempo: </strong>15:27 min/km</div>
+            </div>
+            <div class="map-container">
+              <img src="https://res.cloudinary.com/diljpkw9f/image/upload/v1755432129/krzsaniec_jyiuxh.png">
+            </div>
+          </div>
+
+          <div class="record-card">
+            <h2>2. Śnieżka (1603 m)</h2>
+            <div class="record-data">
+                <div><strong>Dystans: </strong>20,35 km</div>
+                <div><strong>Czas: </strong>3:33:09</div>
+                <div><strong>Podejście: </strong>1263 m</div>
+                <div><strong>Tempo: </strong>10:28 min/km</div>
+            </div>
+            <div class="map-container">
+              <img src="https://res.cloudinary.com/diljpkw9f/image/upload/v1755432521/sniezka_oh9pt9.png">
+            </div>
+          </div>
+
+          <div class="record-card">
+            <h2>3. Faja da Ovelha</h2>
+            <div class="record-data">
+                <div><strong>Dystans: </strong>13,69 km</div>
+                <div><strong>Czas: </strong>3:14:59</div>
+                <div><strong>Podejście: </strong>1162 m</div>
+                <div><strong>Tempo: </strong>14:15 min/km</div>
+            </div>
+            <div class="map-container">
+              <img src="https://res.cloudinary.com/diljpkw9f/image/upload/v1755432821/prazers_dlvb8w.png">
+            </div>
+          </div>
+
+        </section>
+
+        <!-- Rower -->
+        <section id="rower" class="record-section">
+          <h1>Najdłuższa jazda rowerem</h1>
+
+          <div class="record-card">
+            <h2>1. Dolina Baryczy</h2>
+            <div class="record-data">
+                <div><strong>Dystans: </strong>36,31 km</div>
+                <div><strong>Czas: </strong>3:14:51</div>
+                <div><strong>Podjazd: </strong>176 m</div>
+                <div><strong>Max: </strong>43 km/h</div>
+            </div>
+            <div class="map-container">
+              <img src="https://res.cloudinary.com/diljpkw9f/image/upload/v1755434125/dolinabarycz_g01gly.png">
+            </div>
+          </div>
+
+          <div class="record-card">
+            <h2>2. Krotoszyn - Maciejew</h2>
+            <div class="record-data">
+                <div><strong>Dystans: </strong>35,76 km</div>
+                <div><strong>Czas: </strong>2:06:12</div>
+                <div><strong>Podjazd: </strong>87 m</div>
+                <div><strong>Max: </strong>28 km/h</div>
+            </div>
+            <div class="map-container">
+              <img src="https://res.cloudinary.com/diljpkw9f/image/upload/v1755434389/maciejwe_b9ityo.png">
+            </div>
+          </div>
+
+          <div class="record-card">
+            <h2>3. Szlak Sulimira</h2>
+            <div class="record-data">
+                <div><strong>Dystans: </strong>33,11 km</div>
+                <div><strong>Czas: </strong>1:57:30</div>
+                <div><strong>Podjazd: </strong>101 m</div>
+                <div><strong>Max: </strong>32 km/h</div>
+            </div>
+            <div class="map-container">
+              <img src="https://res.cloudinary.com/diljpkw9f/image/upload/v1755434616/sulimir_rxkzyo.png">
+            </div>
+          </div>
+
+        </section>
+
+        <!-- Wędrówki -->
+        <section id="wedrowki" class="record-section">
+          <h1>Najdłuższa wędrówka</h1>
+
+          <div class="record-card">
+            <h2>1. Krzesanica (2122 m)</h2>
+            <div class="record-data">
+                <div><strong>Dystans: </strong>27,17 km</div>
+                <div><strong>Czas: </strong>6:59:51</div>
+                <div><strong>Podejście: </strong>2251 m</div>
+                <div><strong>Max: </strong>2122 m n.p.m.</div>
+            </div>
+            <div class="map-container">
+              <img src="https://res.cloudinary.com/diljpkw9f/image/upload/v1755432129/krzsaniec_jyiuxh.png">
+            </div>
+          </div>
+
+          <div class="record-card">
+            <h2>2. Wysoka Kopa (1126 m)</h2>
+            <div class="record-data">
+                <div><strong>Dystans: </strong>26 km</div>
+                <div><strong>Czas: </strong>6:58:09</div>
+                <div><strong>Podejście: </strong>637 m</div>
+                <div><strong>Max: </strong>1126 m n.p.m.</div>
+            </div>
+            <div class="map-container">
+              <img src="https://res.cloudinary.com/diljpkw9f/image/upload/v1755435498/wysokakopa_gbmkjm.png">
+            </div>
+          </div>
+
+          <div class="record-card">
+            <h2>3. Bukovec (1005 m)</h2>
+            <div class="record-data">
+                <div><strong>Dystans: </strong>25,68 km</div>
+                <div><strong>Czas: </strong>7:55:08</div>
+                <div><strong>Podejście: </strong>603 m</div>
+                <div><strong>Max: </strong>1005 m n.p.m.</div>
+            </div>
+            <div class="map-container">
+              <img src="https://res.cloudinary.com/diljpkw9f/image/upload/v1755435891/bukovec_fko6le.png">
+            </div>
+          </div>
+
+        </section>
+
+        <!-- Hulajnoga -->
+        <section id="hulajnoga" class="record-section">
+          <h1>Najdłuższa trasa hulajnogą</h1>
+
+          <div class="record-card">
+            <h2>1. Stadion ŁKS-u Łódź</h2>
+            <h5>12.02.2024</h5>
+            <div class="record-data">
+                <div><strong>Dystans: </strong>38,16 km</div>
+                <div><strong>Czas: </strong>3:39:43</div>
+            </div>
+            <div class="map-container">
+              <img src="https://res.cloudinary.com/diljpkw9f/image/upload/v1755437204/lodz_uvqyxg.png">
+            </div>
+          </div>
+
+          <div class="record-card">
+            <h2>2. Gdańsk</h2>
+            <h5>18.04.2022</h5>
+            <div class="record-data">
+                <div><strong>Dystans: </strong>37 km</div>
+            </div>
+            <div class="map-container">
+              <img src="https://res.cloudinary.com/diljpkw9f/image/upload/v1755438032/lechia_ylr7he.png">
+            </div>
+          </div>
+
+          <div class="record-card">
+            <h2>3. Arka Gdynia</h2>
+            <h5>16.04.2022</h5>
+            <div class="record-data">
+                <div><strong>Dystans: </strong>32 km</div>
+            </div>
+            <div class="map-container">
+              <img src="https://res.cloudinary.com/diljpkw9f/image/upload/v1755437491/arkagdy_gnx2ul.png">
+            </div>
+          </div>
+
+        </section>
+      </div>
+    </div>
+  </main>
+  <script>
+    // Ukrywa wszystkie sekcje i pokazuje tylko wybraną
+    function showSection(id) {
+      document.querySelectorAll('.record-section').forEach(sec => sec.style.display = 'none');
+      document.getElementById(id).style.display = 'block';
+    }
+
+    // Domyślnie ukryj wszystkie, pokaż bieganie
+    showSection('bieganie');
+
+    // Dark mode automatyczny
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+      document.body.classList.add('dark-mode');
+    }
+  </script>
 </body>
 </html>
