@@ -185,4 +185,69 @@ body.dark-mode .app-icon:hover {
         flex: 1 1 auto;
         text-align: center;
     }
-} /* ← poprawnie zamykamy media query */
+} 
+.record-section {
+  display: none;
+  margin-top: 25px;
+  text-align: center;
+}
+.record-card {
+  background: #f9f9f9;
+  border-radius: 12px;
+  padding: 15px;
+  margin: 15px auto;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  max-width: 500px;
+}
+.map-container {
+  margin-top: 10px;
+}
+body.dark-mode .record-card {
+  background: #2a2a2a;
+  box-shadow: 0 2px 6px rgba(255,255,255,0.1);
+}
+.record-section h1,
+.record-card h2 {
+  margin-bottom: 12px;
+}
+.record-card h1 {
+  text-align: center;
+}
+.record-section h2 {
+  text-align: left;
+  margin-bottom: 10px;
+}
+.record-card h5 {
+  margin-top: 0;
+  color: #666;
+  text-align: left;
+}
+.record-data {
+  display: grid;
+  grid-template-columns: 1fr 1fr; /* dwie równe kolumny */
+  gap: 8px 20px; /* odstępy pionowe i poziome */
+  margin: 10px 0;
+}
+.record-data div {
+  font-size: 16px;
+  text-align: left;
+}
+.record-data div:nth-child(2),
+.record-data div:nth-child(4) {
+  text-align: left;
+  padding-left: 40px; /* możesz zmieniać wartość w zależności od szerokości */
+}
+body.dark-mode .record-data div {
+  color: #ddd;
+}
+.map-container img {
+  width: 100%;
+  max-width: 600px; /* żeby były czytelne, ale nie za duże */
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+body.dark-mode .record-data h2 {
+  color: #aaa;
+}
