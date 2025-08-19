@@ -106,7 +106,6 @@ body.dark-mode {
 }
 body.dark-mode .container {
     background-color: #1e1e1e;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
 }
 body.dark-mode a {
     color: white;
@@ -126,10 +125,6 @@ body.dark-mode .nav-link.active {
 }
 body.dark-mode table, body.dark-mode td, body.dark-mode th {
     border: 1px solid #555;
-}
-body.dark-mode td, body.dark-mode th {
-    background-color: #1e1e1e;
-    color: white;
 }
 .app-icon {
     display: flex;
