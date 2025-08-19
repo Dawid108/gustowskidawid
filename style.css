@@ -101,7 +101,7 @@ img{
     width: 300px;    
 }
 body.dark-mode {
-    background-color: #121212;
+    background-color: #1e1e1e;
     color: white;
 }
 body.dark-mode .container {
