@@ -46,3 +46,29 @@ window.onload = function() {
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
     document.body.classList.add('dark-mode');
 }
+
+let czas108 = localStorage.getItem("czas108") || 0;
+
+setInterval(() => {
+    czas108 += 10;
+    localStorage.setItem("czas108", czas108);
+}, 10000);
+
+let id108 = localStorage.getItem("id108");
+
+if (
+    !id108 ||
+    isNaN(id108)
+) {
+    id108 =
+    Math.floor(Math.random() * 9999) + 1;
+
+    localStorage.setItem(
+        "id108",
+        id108
+    );
+
+    console.log("Nowy numer:", id108);
+} else {
+    console.log("Numer:", id108);
+}
